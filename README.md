@@ -52,12 +52,12 @@ Niniejszą informację należy również usunąć z wersji końcowej.
 
 
 2 Odnośniki do innych źródeł
-tj. do wykorzystywanych narzędzi / projektów w tych narzędziach
+   tj. do wykorzystywanych narzędzi / projektów w tych narzędziach
 Zarządzania projektem – Jira, Trello, itp.
 Wersjonowanie kodu – sugerowany Git (hosting np. na Bitbucket lub Github), ew. SVN
 System obsługi defektów – np. Bitbucket, Github, Bugzilla.
 3 Słownik pojęć
-Tabela lub lista z pojęciami, które wymagają wyjaśnienia, wraz z tymi wyjaśnieniami – w szczególności synonimy różnych pojęć używanych w dokumentacji.
+   Tabela lub lista z pojęciami, które wymagają wyjaśnienia, wraz z tymi wyjaśnieniami – w szczególności synonimy różnych pojęć używanych w dokumentacji.
 4Wprowadzenie
 4.1 Cel dokumentacji
 
@@ -95,8 +95,8 @@ Warto również podkreślić, że bank, dla którego realizowana jest aplikacja,
 5.1.1 Definicja produktu
 
    System bankowy to kompleksowe narzędzie finansowe, obejmujące m.in. kalkulator walutowy, obsługę rachunków bankowych, kredytów oraz inwestycji, dostępne przez platformę internetową i mobilną.
+   
 5.1.2 Podstawowe założenia
-
 
    Celem systemu bankowego jest zapewnienie szybkiej, bezpiecznej i wygodnej obsługi finansowej dla klientów banku. System umożliwi użytkownikom łatwe i intuicyjne zarządzanie swoimi finansami, w tym przeprowadzanie transakcji, płatności, korzystanie z kalkulatorów walutowych, uzyskiwanie informacji o swoich rachunkach bankowych, kredytach i inwestycjach, a także monitorowanie swojego portfela inwestycyjnego. Podstawowymi założeniami systemu jest wykorzystanie nowoczesnych technologii informatycznych, zapewnienie bezpieczeństwa transakcji oraz prostota i wygoda użytkowania. Wszystkie te założenia mają na celu zwiększenie konkurencyjności banku na rynku finansowym i poprawienie doświadczenia użytkownika.
 
