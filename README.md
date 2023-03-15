@@ -51,59 +51,67 @@ Niniejszą informację należy również usunąć z wersji końcowej.
 12	Inne informacje	16
 
 
-2Odnośniki do innych źródeł
+2 Odnośniki do innych źródeł
 tj. do wykorzystywanych narzędzi / projektów w tych narzędziach
 Zarządzania projektem – Jira, Trello, itp.
 Wersjonowanie kodu – sugerowany Git (hosting np. na Bitbucket lub Github), ew. SVN
 System obsługi defektów – np. Bitbucket, Github, Bugzilla.
-3Słownik pojęć
+3 Słownik pojęć
 Tabela lub lista z pojęciami, które wymagają wyjaśnienia, wraz z tymi wyjaśnieniami – w szczególności synonimy różnych pojęć używanych w dokumentacji.
 4Wprowadzenie
-4.1Cel dokumentacji
+4.1 Cel dokumentacji
 
-Dokumentacja dla aplikacji bankowej jest kluczowa dla zapewnienia skutecznego i bezpiecznego jej działania.
+   Dokumentacja dla aplikacji bankowej jest kluczowa dla zapewnienia skutecznego i bezpiecznego jej działania.
 Głównym celem dokumentacji jest dostarczenie kompletnych informacji o funkcjonalności aplikacji, włącznie z opisem interfejsu użytkownika, logiką biznesową i sposobem działania algorytmów.
 Dokumentacja ma również na celu pomóc programistom i testerom w zrozumieniu kodu źródłowego, dzięki czemu mogą szybciej i skuteczniej debugować i testować aplikację.
 Wreszcie, dokumentacja jest ważna dla użytkowników, którzy potrzebują jasnych i zrozumiałych instrukcji dotyczących korzystania z aplikacji oraz zabezpieczeń, aby chronić swoje konto i dane osobowe.
 
-4.2Przeznaczenie dokumentacji
-Dokumentacja aplikacji bankowej jest przeznaczona dla różnych grup odbiorców, w tym:
+4.2 Przeznaczenie dokumentacji
+
+   Dokumentacja aplikacji bankowej jest przeznaczona dla różnych grup odbiorców, w tym:
 1.Programistów - którzy będą pracować nad dalszym rozwojem aplikacji lub wprowadzać zmiany i aktualizacje. Dokumentacja ta zawiera szczegółowe informacje o architekturze aplikacji, kodzie źródłowym, testach jednostkowych i integracyjnych, wymaganiach dotyczących środowiska i innych ważnych aspektach.
 2.Testerów - którzy będą przeprowadzać testy funkcjonalne i niefunkcjonalne w celu sprawdzenia jakości i wydajności aplikacji. Dokumentacja ta zawiera informacje o wymaganiach testowych, scenariuszach testowych i oczekiwanych wynikach.
 3.Analityków biznesowych - którzy będą analizować dane dotyczące użytkowania aplikacji, trendów i zachowań użytkowników. Dokumentacja ta zawiera szczegółowe informacje o funkcjonalności aplikacji, aby analitycy mogli w pełni zrozumieć, jak aplikacja działa i jakie dane są generowane.
 4.Użytkowników - którzy będą korzystać z aplikacji bankowej. Dokumentacja ta zawiera jasne instrukcje dotyczące korzystania z aplikacji, w tym jak przeprowadzić transakcje, korzystać z kalkulatorów walutowych, składać wnioski o kredyty, a także informacje o zabezpieczeniach i ochronie danych osobowych.
 
-4.3Opis organizacji lub analiza rynku
-Organizacja, dla której aplikacja bankowa zostanie zrealizowana, to bank o ugruntowanej pozycji na rynku finansowym. Jest to instytucja posiadająca sieć oddziałów oraz wielu klientów korzystających z różnego rodzaju usług finansowych. W ramach swojej działalności bank oferuje m.in. kredyty, konta bankowe, produkty inwestycyjne, karty płatnicze oraz usługi ubezpieczeniowe.
+4.3 Opis organizacji lub analiza rynku
+
+   Organizacja, dla której aplikacja bankowa zostanie zrealizowana, to bank o ugruntowanej pozycji na rynku finansowym. Jest to instytucja posiadająca sieć oddziałów oraz wielu klientów korzystających z różnego rodzaju usług finansowych. W ramach swojej działalności bank oferuje m.in. kredyty, konta bankowe, produkty inwestycyjne, karty płatnicze oraz usługi ubezpieczeniowe.
 Działanie banku opiera się na złożonych procesach biznesowych, które wymagają precyzyjnego planowania i realizacji. Istotną kwestią dla banku jest również ochrona danych klientów oraz zachowanie wysokiego poziomu bezpieczeństwa.
 Wdrożenie aplikacji bankowej ma na celu usprawnienie procesów biznesowych banku oraz zwiększenie jakości świadczonych usług. Aplikacja umożliwi lepszą integrację różnych narzędzi i systemów, co przyczyni się do zwiększenia efektywności pracy personelu oraz poprawy jakości obsługi klienta.
 Warto również podkreślić, że bank, dla którego realizowana jest aplikacja, dąży do stałego rozwoju i innowacji w swojej działalności. Dlatego też, zastosowanie nowoczesnej aplikacji bankowej wpisuje się w strategię rozwoju organizacji.
 
-4.4Analiza SWOT organizacji
+4.4 Analiza SWOT organizacji
 
-Silne strony	Słabe strony
-- Ugruntowana pozycja na rynku finansowym- Sieć oddziałów w wielu miastach- Wieloletnie doświadczenie w branży finansowej- Wysoko wykwalifikowany personel	- Wysoki koszt obsługi klienta- Złożone procesy biznesowe- Brak elastyczności w realizacji zadań- Niska innowacyjność
-Szanse	Zagrożenia
-- Wzrost zainteresowania klientów nowoczesnymi usługami bankowymi- Możliwość pozyskania nowych klientów- Możliwość wdrożenia nowych produktów finansowych- Różnorodność kanałów dystrybucji usług finansowych	- Konkurencja na rynku finansowym- Zmiany regulacyjne i prawne- Zmiany rynkowe, np. wzrost stóp procentowych lub spadek popytu na usługi finansowe
+   Silne strony	Słabe strony
+    - Ugruntowana pozycja na rynku finansowym- Sieć oddziałów w wielu miastach- Wieloletnie doświadczenie w branży finansowej- Wysoko wykwalifikowany personel	- Wysoki     koszt obsługi klienta- Złożone procesy biznesowe- Brak elastyczności w realizacji zadań- Niska innowacyjność
+    Szanse	Zagrożenia
+    - Wzrost zainteresowania klientów nowoczesnymi usługami bankowymi- Możliwość pozyskania nowych klientów- Możliwość wdrożenia nowych produktów finansowych-             Różnorodność kanałów dystrybucji usług finansowych	- Konkurencja na rynku finansowym- Zmiany regulacyjne i prawne- Zmiany rynkowe, np. wzrost stóp procentowych lub     spadek popytu na usługi finansowe
 
-5Specyfikacja wymagań
-5.1Charakterystyka ogólna
-5.1.1Definicja produktu
-System bankowy to kompleksowe narzędzie finansowe, obejmujące m.in. kalkulator walutowy, obsługę rachunków bankowych, kredytów oraz inwestycji, dostępne przez platformę internetową i mobilną.
-5.1.2Podstawowe założenia
+5 Specyfikacja wymagań
 
-Celem systemu bankowego jest zapewnienie szybkiej, bezpiecznej i wygodnej obsługi finansowej dla klientów banku. System umożliwi użytkownikom łatwe i intuicyjne zarządzanie swoimi finansami, w tym przeprowadzanie transakcji, płatności, korzystanie z kalkulatorów walutowych, uzyskiwanie informacji o swoich rachunkach bankowych, kredytach i inwestycjach, a także monitorowanie swojego portfela inwestycyjnego. Podstawowymi założeniami systemu jest wykorzystanie nowoczesnych technologii informatycznych, zapewnienie bezpieczeństwa transakcji oraz prostota i wygoda użytkowania. Wszystkie te założenia mają na celu zwiększenie konkurencyjności banku na rynku finansowym i poprawienie doświadczenia użytkownika.
-5.1.3Cel biznesowy
-Głównym celem biznesowym organizacji jest zwiększenie konkurencyjności na rynku finansowym poprzez udostępnienie klientom nowoczesnej i wygodnej platformy bankowej. Realizacja tego celu będzie opierała się na zwiększeniu liczby klientów korzystających z usług bankowych, poprawie jakości obsługi, redukcji kosztów operacyjnych oraz zwiększeniu zysków banku. Przez wprowadzenie innowacyjnych rozwiązań i usprawnienie procesów biznesowych, bank zamierza stać się liderem w branży bankowej i zwiększyć swoją pozycję na rynku finansowym.
+5.1 Charakterystyka ogólna
+
+5.1.1 Definicja produktu
+
+   System bankowy to kompleksowe narzędzie finansowe, obejmujące m.in. kalkulator walutowy, obsługę rachunków bankowych, kredytów oraz inwestycji, dostępne przez platformę internetową i mobilną.
+5.1.2 Podstawowe założenia
+
+
+   Celem systemu bankowego jest zapewnienie szybkiej, bezpiecznej i wygodnej obsługi finansowej dla klientów banku. System umożliwi użytkownikom łatwe i intuicyjne zarządzanie swoimi finansami, w tym przeprowadzanie transakcji, płatności, korzystanie z kalkulatorów walutowych, uzyskiwanie informacji o swoich rachunkach bankowych, kredytach i inwestycjach, a także monitorowanie swojego portfela inwestycyjnego. Podstawowymi założeniami systemu jest wykorzystanie nowoczesnych technologii informatycznych, zapewnienie bezpieczeństwa transakcji oraz prostota i wygoda użytkowania. Wszystkie te założenia mają na celu zwiększenie konkurencyjności banku na rynku finansowym i poprawienie doświadczenia użytkownika.
+
+5.1.3 Cel biznesowy
+
+   Głównym celem biznesowym organizacji jest zwiększenie konkurencyjności na rynku finansowym poprzez udostępnienie klientom nowoczesnej i wygodnej platformy bankowej. Realizacja tego celu będzie opierała się na zwiększeniu liczby klientów korzystających z usług bankowych, poprawie jakości obsługi, redukcji kosztów operacyjnych oraz zwiększeniu zysków banku. Przez wprowadzenie innowacyjnych rozwiązań i usprawnienie procesów biznesowych, bank zamierza stać się liderem w branży bankowej i zwiększyć swoją pozycję na rynku finansowym.
 5.1.4Użytkownicy
 System będzie przeznaczony dla szerokiego grona użytkowników, w tym dla klientów indywidualnych, firm oraz instytucji. Głównymi użytkownikami systemu będą klienci banku, którzy będą korzystać z różnych usług finansowych takich jak konto bankowe, karty kredytowe, kredyty, lokaty, czy ubezpieczenia. Oprócz klientów, w systemie będą pracować również pracownicy banku(administratorzy, pracownicy szeregowi), którzy będą mieli dostęp do panelu administracyjnego umożliwiającego zarządzanie kontami i transakcjami klientów.
-5.1.5Korzyści z systemu
+5.1.5 Korzyści z systemu
  
 
 
-Dla firm i instytucji:
+   Dla firm i instytucji:
 
-Automatyzacja procesów finansowych, co pozwoli na zaoszczędzenie czasu oraz zmniejszenie kosztów związanych z ręcznym przetwarzaniem danych.
+   Automatyzacja procesów finansowych, co pozwoli na zaoszczędzenie czasu oraz zmniejszenie kosztów związanych z ręcznym przetwarzaniem danych.
 1.Łatwy i intuicyjny interfejs użytkownika, co umożliwi pracownikom szybkie przetwarzanie i obsługę wielu transakcji w krótkim czasie.
 2.Możliwość przeglądania i generowania raportów finansowych w czasie rzeczywistym, co pozwoli na szybsze podejmowanie decyzji biznesowych.
 3.Bezpieczeństwo transakcji finansowych, co zapewni klientom większe zaufanie do firmy i przyczyni się do wzrostu ich lojalności.
@@ -114,27 +122,28 @@ Automatyzacja procesów finansowych, co pozwoli na zaoszczędzenie czasu oraz zm
 8.Optymalizacja kosztów związanych z obsługą transakcji finansowych, co przyczyni się do zwiększenia zysków firmy.
 
 
-Dla klientów:
+   Dla klientów:
 
 1.Dostęp do aplikacji bankowej 24/7, co pozwala na zarządzanie kontem z dowolnego miejsca i o każdej porze dnia i nocy.
 2.Możliwość przeglądania salda i historii transakcji w czasie rzeczywistym.
 3.Szybsza i bardziej wygodna obsługa transakcji bez konieczności wizyty w oddziale banku.
 4.Bezpieczne przeprowadzanie transakcji dzięki zastosowaniu zaawansowanych technologii bezpieczeństwa.
 
-Dla pracowników:
+   Dla pracowników:
 
 1.Ułatwienie i usprawnienie codziennych operacji bankowych, takich jak weryfikacja klientów i przetwarzanie transakcji.
 2.Szybszy i bardziej efektywny dostęp do informacji o klientach i ich kontach.
 3.Wsparcie w pracy, dzięki automatyzacji niektórych zadań, co umożliwia skupienie się na zadaniach bardziej strategicznych.
 
-Dla administratorów systemu:
+   Dla administratorów systemu:
 
 1.Łatwiejsza i bardziej efektywna administracja systemu dzięki zastosowaniu jednolitej platformy.
 2.Szybsze wykrywanie i rozwiązywanie problemów technicznych dzięki rozbudowanym narzędziom monitorowania systemu.
 3.Umożliwienie przeprowadzania analizy danych dotyczących użytkowania systemu, co pozwala na ciągłe doskonalenie i usprawnianie systemu.
 
-5.1.6Ograniczenia projektowe i wdrożeniowe
-Przepisy prawne: 
+5.1.6 Ograniczenia projektowe i wdrożeniowe
+
+   Przepisy prawne: 
 Aplikacja bankowa musi spełniać wymogi prawne i regulacje związane z branżą bankową, takie jak GDPR, dyrektywy UE, Kodeks Cywilny, Prawo Bankowe, itp..
 Przede wszystkim, aplikacja bankowa musi działać zgodnie z przepisami prawa bankowego oraz prawa ochrony danych osobowych, takimi jak RODO. Wymagane jest, aby dane klientów były bezpiecznie przechowywane i przetwarzane, a także, aby transakcje finansowe odbywały się zgodnie z określonymi procedurami i zasadami.
 1.Specyficzne technologie: Aplikacja bankowa musi działać na specyficznych technologiach, takich jak systemy zarządzania bazami danych, protokoły komunikacyjne, języki programowania, narzędzia do testowania, itp.
@@ -147,7 +156,7 @@ Przede wszystkim, aplikacja bankowa musi działać zgodnie z przepisami prawa ba
 8.System operacyjny: Aplikacja bankowa musi działać na odpowiednim systemie operacyjnym, np. Windows, Linux, MacOS itp.
 9.Inne komponenty niezbędne do współpracy: Aplikacja bankowa musi współpracować z innymi systemami, takimi jak serwery poczty elektronicznej, serwery plików, serwery aplikacji, itp.
 
-5.2Wymagania funkcjonalne
+5.2 Wymagania funkcjonalne
 5.2.1Lista wymagań
 lista numerowana – czyli lista przypadków użycia lub bardziej ogólnie sformułowane wymagania, np. wymagania użytkownika
 5.2.2Diagramy przypadków użycia
