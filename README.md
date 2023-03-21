@@ -156,37 +156,58 @@ Przede wszystkim, aplikacja bankowa musi działać zgodnie z przepisami prawa ba
 8.System operacyjny: Aplikacja bankowa musi działać na odpowiednim systemie operacyjnym, np. Windows, Linux, MacOS itp.
 9.Inne komponenty niezbędne do współpracy: Aplikacja bankowa musi współpracować z innymi systemami, takimi jak serwery poczty elektronicznej, serwery plików, serwery aplikacji, itp.
 
-5.2 Wymagania funkcjonalne
-5.2.1Lista wymagań
-lista numerowana – czyli lista przypadków użycia lub bardziej ogólnie sformułowane wymagania, np. wymagania użytkownika
-5.2.2Diagramy przypadków użycia
-Tutaj same diagramy – bez specyfikacji, ale każdy diagram z tytułem i na osobnej stronie
-5.2.3Szczegółowy opis wymagań
-dla 5-7 wybranych najważniejszych przypadków użycia
-każde na nowej stronie wg następujących punktów:
-Numer – jako ID
-Nazwa
-Uzasadnienie biznesowe – odwołanie (-a) do elementów wymienionych w 5.1.5. (id i treść elementu, do którego się odwołujemy)
-Użytkownicy
-Scenariusze, dla każdego z nich:
-oNazwa scenariusza
-oWarunki początkowe
-oPrzebieg działań – numerowana lista kroków, ze wskazaniem, kto realizuje dany krok
-oEfekty – warunki końcowe
-oWymagania niefunkcjonalne – szczegółowe wobec poszczególnych wymagań funkcjonalnych
-oCzęstotliwość - na skali 1-5 lub BN-BW
-oIstotność – inaczej: zależność krytyczna, znaczenie - na skali 1-5 lub BN-BW
+5.2 Wymagania funkcjonalne:
 
-Ważne!
-Elementy od warunków początkowych do końca mogą być grupowane, tj. specyfikacja pojedynczego przypadku użycia może zawierać:
-- pojedynczy przebieg działań (scenariusz główny) oraz ew. scenariusze alternatywne, albo
-- wiele przebiegów głównych wraz z ew. scenariuszami alternatywnymi – wtedy każdy z przebiegów głównych powinien być opisany wg tych punktów (od warunków początkowych do końca).
-5.3Wymagania niefunkcjonalne
-W odniesieniu do całego systemu, modułów lub innych składowych systemu
-1.Wydajność – w odniesieniu do konkretnych sytuacji – funkcji systemu
-2.Bezpieczeństwo – utrata, zniszczenie danych, zniszczenie innego systemu przez nasz – wraz z działaniami zapobiegawczymi i ograniczającymi skutki
-3.Zabezpieczenia
-4.Inne cechy jakości – najlepiej ilościowo, żeby można było zweryfikować (zmierzyć) – adaptowalność, dostępność, poprawność, elastyczność, łatwość konserwacji, przenośność, awaryjność, testowalność, użyteczność
+5.2.1 Lista wymagań:
+
+   Kalkulator walut pobierany z API NBP
+   System logowania użytkowników
+   Przeglądanie salda konta
+   Wykonywanie przelewów
+   Zarządzanie kontami bankowymi
+   Obsługa kart płatniczych
+
+5.2.2 Diagramy przypadków użycia: (do dodania)
+
+Diagram przypadków użycia systemu logowania użytkowników
+Diagram przypadków użycia przeglądania salda konta
+Diagram przypadków użycia wykonywania przelewów
+Diagram przypadków użycia zarządzania kontami bankowymi
+Diagram przypadków użycia obsługi kart płatniczych
+
+5.2.3 Szczegółowy opis wymagań dla 5-7 wybranych najważniejszych przypadków użycia:
+Przykładowo dla przypadku użycia "Wykonywanie przelewów":
+   Numer: 3
+   Nazwa: Wykonywanie przelewów
+   Uzasadnienie biznesowe: Umożliwienie klientom dokonywania przelewów z ich konta bankowego.
+   Użytkownicy: Klienci banku
+   Scenariusze:
+      Nazwa scenariusza: Wykonanie standardowego przelewu
+      Warunki początkowe: Klient jest zalogowany do systemu i posiada wystarczającą ilość środków na koncie.
+      Przebieg działań:
+      Klient wybiera opcję wykonania przelewu.
+         System prosi o podanie danych odbiorcy (numer konta, nazwa banku, nazwa odbiorcy).
+      Klient wprowadza dane odbiorcy.
+         System prosi o podanie kwoty przelewu.
+      Klient wprowadza kwotę przelewu.
+         System prosi o potwierdzenie danych przelewu.
+      Klient potwierdza dane przelewu.
+      Efekty: Środki zostają przelane na konto odbiorcy.
+   Wymagania niefunkcjonalne:
+   Częstotliwość: 5 (często wykorzystywany przez klientów)
+   Istotność: 5 (kluczowa funkcjonalność systemu)
+
+5.3 Wymagania niefunkcjonalne:
+
+-Wydajność:
+   Przepustowość systemu powinna wynosić co najmniej 100 transakcji na sekundę.
+-Bezpieczeństwo:
+   System powinien być odporny na ataki typu SQL injection.
+   Hasła użytkowników powinią być przechowywane w bezpieczny sposób, np. zaszyfrowane w bazie danych. Ponadto, system powinien posiadać mechanizmy ochrony przed        dostępem nieautoryzowanym oraz umożliwiać zarządzanie uprawnieniami użytkowników.
+-Zabezpieczenia:
+   System powinien posiadać mechanizmy zapobiegające utracie danych, np. poprzez regularne tworzenie kopii zapasowych. Ponadto, powinien umożliwiać szyfrowanie transmisji danych pomiędzy klientem a serwerem.
+-Inne cechy jakości:
+   System powinien być łatwy w obsłudze dla użytkowników, zapewniać szybki czas odpowiedzi oraz łatwość konserwacji. Ponadto, powinien być testowalny i elastyczny w zakresie dostosowywania go do zmieniających się potrzeb klientów. System powinien także umożliwiać dostępność przez całą dobę oraz poprawność w działaniu.
 6Zarządzanie projektem
 6.1Zasoby ludzkie
 (rzeczywiste lub hipotetyczne) – przy realizacji projektu
