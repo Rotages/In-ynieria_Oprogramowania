@@ -243,9 +243,61 @@ szczegółowy plan testowania systemu – głównie testowanie funkcjonalności;
 oprzebieg lub zestaw danych testowych musi zawierać jawną informację o warunku zaliczenia testu
 9Projekt techniczny
 9.1Opis architektury systemu
-z ew. rysunkami pomocniczymi
+
+Architektura systemu aplikacji bankowej składa się z kilku elementów, które łącznie tworzą spójną całość.
+
+Warstwa prezentacji - jest to część systemu, która odpowiada za interakcję użytkownika z aplikacją. Składa się ona z interfejsu użytkownika oraz aplikacji klienckiej. Interfejs użytkownika umożliwia użytkownikowi wykonywanie operacji bankowych poprzez interakcję z systemem. Aplikacja kliencka jest odpowiedzialna za komunikację z serwerem oraz przesyłanie żądań użytkownika do serwera.
+
+Warstwa logiki biznesowej - jest to część systemu, która odpowiada za logikę biznesową aplikacji. Składa się ona z serwera aplikacji oraz serwera bazy danych. Serwer aplikacji zawiera logikę biznesową aplikacji oraz przetwarza żądania użytkownika. Serwer bazy danych przechowuje dane użytkowników oraz transakcje bankowe.
+
+Warstwa integracji - jest to część systemu, która odpowiada za integrację aplikacji bankowej z innymi systemami. Składa się ona z interfejsów programistycznych API oraz usług sieciowych. Interfejsy programistyczne API umożliwiają innym systemom integrację z aplikacją bankową, natomiast usługi sieciowe umożliwiają komunikację z innymi systemami.
+
+Poniżej przedstawiony jest schematyczny rysunek architektury systemu aplikacji bankowej:
+      +-------------+
+     | Warstwa      |
+     | prezentacji |
+     |             |
+     | Interfejs    |
+     | użytkownika  |
+     |             |
+     | Aplikacja    |
+     | kliencka     |
+     +-------------+
+            |
+            |
+            v
+     +-------------+
+     | Warstwa      |
+     | logiki       |
+     | biznesowej  |
+     |             |
+     | Serwer       |
+     | aplikacji   <----> Serwer bazy danych
+     |             |
+     +-------------+
+            |
+            |
+            v
+     +-------------+
+     | Warstwa      |
+     | integracji  |
+     |             |
+     | Interfejsy   |
+     | programistycz|
+     | ne API       |
+     |             |
+     | Usługi      <----> Inne systemy
+     | sieciowe    |
+     +-------------+
+
 9.2Technologie implementacji systemu
-tabela z listą wykorzystanych technologii, każda z uzasadnieniem
+
+Technologia	- Opis uzasadniający
+PHP - Wybrano język programowania PHP jako główny język implementacji, ponieważ jest to popularny język skryptowy wykorzystywany do tworzenia aplikacji internetowych oraz posiada wiele bibliotek i frameworków ułatwiających pracę.
+Blade - Do implementacji warstwy prezentacji wykorzystano framework Blade, który jest częścią frameworka Laravel. Użyto go ze względu na prostotę i elastyczność. Framework ten umożliwia szybkie i łatwe tworzenie interfejsów użytkownika.
+MySQL - Jako system zarządzania bazą danych wykorzystano MySQL, ponieważ jest to popularny, bezpieczny i wydajny system. MySQL jest również łatwy w użyciu i posiada wiele narzędzi do zarządzania bazami danych.
+API - Do pobierania kursów walut dla kalkulatora wykorzystano API. Wybrano tę technologię, ponieważ umożliwia ona łatwe i szybkie pobieranie aktualnych kursów walut z różnych źródeł. API może również umożliwiać integrację z innymi systemami.
+
 9.3Diagramy UML
 każdy diagram ma mieć tytuł oraz ma być na osobnej stronie
 diagramy przypadków użycia umieszczone w punkcie 5.2.2, a nie tutaj.
@@ -258,35 +310,154 @@ diagramy przypadków użycia umieszczone w punkcie 5.2.2, a nie tutaj.
 co najmniej 5, w tym co najmniej 1 przypadek użycia zilustrowany kilkoma diagramami
 9.3.4Inne diagramy
 co najmniej trzy – komponentów, rozmieszczenia, maszyny stanowej itp.
+
 9.4Charakterystyka zastosowanych wzorców projektowych
-informacja opisowa wspomagana diagramami (odsyłaczami do diagramów UML); jeśli wykorzystano wzorce projektowe, to należy wykazać dwa z nich
+
+W projekcie zastosowano kilka wzorców projektowych, które pomogły w zaprojektowaniu i implementacji systemu. Poniżej przedstawione są dwa zastosowane wzorce projektowe wraz z diagramami UML.
+
+1. Wzorzec projektowy Model-Widok-Kontroler (MVC) - wzorzec ten został wykorzystany do oddzielenia warstwy prezentacji, logiki biznesowej i warstwy danych. MVC umożliwia łatwe zarządzanie projektem poprzez podzielenie go na trzy podstawowe elementy: model, widok i kontroler. Model odpowiada za przechowywanie danych, widok za prezentację danych użytkownikowi, a kontroler za przetwarzanie żądań użytkownika i interakcję z modelem i widokiem. Poniżej przedstawiony jest diagram UML przedstawiający wzorzec MVC w projekcie aplikacji bankowej
+
+2. Wzorzec projektowy Fabryka - wzorzec ten został wykorzystany do tworzenia obiektów różnych typów na podstawie podanego parametru. W projekcie zastosowano fabrykę do tworzenia obiektów odpowiedzialnych za komunikację z różnymi źródłami danych, takimi jak baza danych czy API. Poniżej przedstawiony jest diagram UML przedstawiający wzorzec Fabryka w projekcie aplikacji bankowej
+
 9.5Projekt bazy danych
+
 9.5.1Schemat
-w trzeciej formie normalnej; jeśli w innej to umieć uzasadnić wybór
+
+Poniżej przedstawiony jest schemat bazy danych aplikacji bankowej w trzeciej postaci normalnej (3NF):
+
+
+Schemat ten jest znormalizowany do trzeciej postaci normalnej, co oznacza, że każda kolumna w tabeli zależy tylko od klucza głównego i żadnej innej kolumny w tabeli. Wykorzystanie normalizacji do trzeciej postaci normalnej jest zalecane, ponieważ umożliwia uniknięcie problemów związanych z powielaniem danych i zapewnia efektywną pracę bazy danych.
+
+W projekcie wykorzystano relacyjną bazę danych MySQL, która jest jednym z najczęściej wykorzystywanych systemów zarządzania bazami danych w aplikacjach internetowych. Zdecydowano się na wykorzystanie bazy MySQL ze względu na jej łatwą instalację i konfigurację, a także na jej wydajność i niezawodność.
+
+
 9.5.2Projekty szczegółowe tabel
 w zależności, czy następujące elementy są widoczne na schemacie b.d.: nazwa tabeli, nazwy pól, typ danych, wartości NULL, klucz główny, klucz obcy –
 - jeśli TAK: i nie ma potrzeby pokazania dodatkowych elementów b.d., to ten punkt może być pusty,
 - jeśli NIE: to podać te elementy, których nie widać na schemacie.
 dodatkowymi elementami mogą być np. triggery, procedury, funkcje, indeksy, użytkownicy, role. 
-9.6Projekt interfejsu użytkownika
-co najmniej dla głównej funkcjonalności programu – w razie wątpliwości, uzgodnić z prowadzącym zajęcia
-9.6.1Lista głównych elementów interfejsu
-okien, stron, aktywności (Android)
-9.6.2Przejścia między głównymi elementami
-np. storyboard, schemat blokowy lub inna notacja
-9.6.3Projekty szczegółowe poszczególnych elementów
-dla 5-7 głównych elementów
-każdy element od nowej strony z następującą minimalną zawartością:
-numer – ID elementu
-nazwa – np. formularz danych produktu
-projekt graficzny – wystarczy schemat w narzędziu graficznym lub zrzut ekranu – z przykładowymi informacjami (nie pusty!!!)
+9.6 Projekt interfejsu użytkownika
 
-opcjonalnie:
-opis – dodatkowe opcjonalne informacje o przeznaczeniu, obsłudze – jeśli nazwa nie będzie wystarczająco czytelna
-wykorzystane dane – jakie dane z bazy danych są wykorzystywane
-opis działania – tabela pokazująca m.in. co się dzieje po kliknięciu przycisku, wybraniu opcji z menu itp.
-9.7Procedura wdrożenia
-jeśli informacje w harmonogramie nie są wystarczające (a zapewne nie są)
+co najmniej dla głównej funkcjonalności programu – w razie wątpliwości, uzgodnić z prowadzącym zajęcia
+
+9.6.1 Lista głównych elementów interfejsu
+
+Poniżej przedstawiona jest lista głównych elementów interfejsu aplikacji bankowej:
+
+Strona logowania - na tej stronie użytkownik może wprowadzić swoje dane logowania, takie jak nazwa użytkownika i hasło, aby uzyskać dostęp do swojego konta bankowego.
+
+Strona główna - na stronie głównej użytkownik może zobaczyć podsumowanie swojego konta bankowego, takie jak saldo, ostatnie transakcje i powiadomienia.
+
+Strona transferu pieniędzy - na tej stronie użytkownik może dokonać transferu pieniędzy na inne konto bankowe poprzez wprowadzenie danych odbiorcy, kwoty i tytułu przelewu.
+
+Strona historii transakcji - na tej stronie użytkownik może zobaczyć historię swoich transakcji, takich jak daty, kwoty i opisy.
+
+Strona kalkulatora walut - na tej stronie użytkownik może obliczyć wartość jednej waluty w innej walucie, wykorzystując aktualne kursy walut.
+
+Strona ustawień - na tej stronie użytkownik może zmienić swoje dane osobowe, takie jak adres, numer telefonu i adres e-mail, oraz zmienić swoje dane logowania i preferencje powiadomień.
+
+Strona kontaktowa - na tej stronie użytkownik może znaleźć informacje kontaktowe do banku, takie jak numer telefonu, adres e-mail i godziny pracy.
+
+Okno powiadomienia - na tym oknie użytkownik otrzymuje powiadomienia o transakcjach, zmianach w swoim koncie bankowym i innych ważnych informacjach.
+
+Okno potwierdzenia - na tym oknie użytkownik otrzymuje potwierdzenie dokonania transakcji i może zaakceptować lub anulować transakcję.
+
+W przypadku aplikacji mobilnej na systemie Android, powyższe elementy interfejsu mogą być przedstawione jako różne aktywności, które użytkownik może otwierać i przeglądać w aplikacji.
+
+9.6.2 Przejścia między głównymi elementami
+
+Poniżej przedstawiony jest schemat blokowy przedstawiający przejścia między głównymi elementami interfejsu aplikacji bankowej:
+
++----------------+          +-------------------+           +----------------+
+| Strona logowania| -------->|     Strona główna  |---------->| Strona ustawień |
++----------------+          +-------------------+           +----------------+
+    |                                                     ^           |
+    |                                                     |           |
+    |                                                     |           |
+    v                                                     |           |
++------------------+        +---------------------+      |           |
+|Strona rejestracji|<-------| Strona potwierdzenia |<-----+           |
++------------------+        +---------------------+                  |
+    |                                                                   |
+    |                                                                   |
+    v                                                                   |
++----------------+          +----------------------+                  |
+|  Strona główna | -------->|Strona transferu pieniędzy|                  |
++----------------+          +----------------------+                  |
+    |                                                                   |
+    |                                                                   |
+    v                                                                   |
++------------------+       +---------------------+                     |
+| Strona historii  |<------| Strona kalkulatora  |                     |
+|   transakcji     |       |       walut         |                     |
++------------------+       +---------------------+                     |
+                                                                        |
+                                                                        |
+                                                                        v
+                                                                 +-----------------+
+                                                                 | Strona kontaktowa|
+                                                                 +-----------------+
+
+Schemat przedstawia, że użytkownik zaczyna od strony logowania, skąd może przejść do strony rejestracji lub po wpisaniu poprawnych danych logowania do strony głównej. Z głównej strony użytkownik może przejść do innych głównych elementów interfejsu, takich jak strona transferu pieniędzy, strona historii transakcji, strona kalkulatora walut i strona kontaktowa. Z poziomu strony głównej użytkownik może także przejść do strony ustawień. Przejścia między elementami interfejsu mogą być wywołane przez kliknięcie przycisków lub opcji w menu.
+
+9.6.3 Projekty szczegółowe poszczególnych elementów
+
+Przykładowe projekty szczegółowe dla 5 głównych elementów interfejsu:
+
+Formularz rejestracji użytkownika
+ID: 1
+Nazwa: Formularz rejestracji
+Projekt graficzny:
+Formularz rejestracji
+Opis: Formularz służący do rejestracji użytkownika w systemie. Wymagane dane to: imię, nazwisko, adres e-mail, hasło.
+Wykorzystane dane: dane wprowadzone przez użytkownika zostają zapisane w bazie danych.
+Opis działania: po wprowadzeniu wszystkich wymaganych danych użytkownik klikając przycisk "Zarejestruj się" zostaje zapisany w bazie danych, a następnie przeniesiony na stronę logowania.
+Panel użytkownika
+ID: 2
+Nazwa: Panel użytkownika
+Projekt graficzny:
+Panel użytkownika
+Opis: Panel służący do zarządzania kontem użytkownika. Użytkownik może tutaj zmienić swoje dane, hasło oraz zobaczyć historię transakcji.
+Wykorzystane dane: dane użytkownika pobierane są z bazy danych i wyświetlane w formularzach. Historia transakcji pobierana jest również z bazy danych.
+Opis działania: po zalogowaniu użytkownik zostaje przekierowany na panel użytkownika. Klikając w odpowiednie opcje użytkownik może zmienić swoje dane lub hasło, a także wyświetlić swoją historię transakcji.
+Formularz przelewu
+ID: 3
+Nazwa: Formularz przelewu
+Projekt graficzny:
+Formularz przelewu
+Opis: Formularz służący do wykonania przelewu. Użytkownik wprowadza tutaj dane odbiorcy oraz kwotę przelewu.
+Wykorzystane dane: dane wprowadzone przez użytkownika zostają zapisane w bazie danych. Przy wykonaniu przelewu system pobiera aktualny kurs waluty z API.
+Opis działania: po wprowadzeniu danych użytkownik klikając przycisk "Wykonaj przelew" wykonuje przelew, a dane zostają zapisane w bazie danych. Przy wykonywaniu przelewu system pobiera aktualny kurs waluty z API.
+Strona główna
+ID: 4
+Nazwa: Strona główna
+Projekt graficzny:
+Strona główna
+Opis: Strona główna systemu bankowego. Zawiera informacje o saldzie konta oraz listę ostatnich transakcji.
+Wykorzystane dane: dane o saldzie konta oraz listę ostatnich transakcji pobierane są z bazy danych.
+Opis działania: po zalogowaniu użytkownik zostaje przekierowany na stronę główną.
+
+
+9.7 Procedura wdrożenia
+
+1.Procedura wdrożenia aplikacji bankowej powinna być starannie zaplanowana i składać się z kilku etapów:
+
+2.Testowanie aplikacji: Przed rozpoczęciem wdrożenia aplikacji bankowej należy przeprowadzić testy. Testy powinny obejmować weryfikację funkcjonalności, stabilności i wydajności aplikacji. Testy można przeprowadzić ręcznie lub za pomocą narzędzi automatyzujących.
+
+3.Uruchomienie środowiska produkcyjnego: Po pomyślnym zakończeniu testów należy przygotować środowisko produkcyjne. Powinno ono zapewniać niezbędne zasoby do działania aplikacji bankowej, takie jak serwer aplikacji, bazy danych, usługi sieciowe itp.
+
+4.Przygotowanie bazy danych: Należy zapewnić, że baza danych jest przygotowana do działania z aplikacją bankową. Wszystkie potrzebne tabele, widoki i procedury składowane muszą być utworzone i skonfigurowane zgodnie z wymaganiami aplikacji.
+
+5.Instalacja aplikacji bankowej: Po przygotowaniu środowiska produkcyjnego i bazy danych, należy zainstalować aplikację bankową. Instalacja może obejmować skopiowanie plików na serwer aplikacji, skonfigurowanie połączenia z bazą danych, skonfigurowanie plików konfiguracyjnych i przetestowanie działania aplikacji.
+
+6.Testowanie aplikacji w środowisku produkcyjnym: Po zainstalowaniu aplikacji bankowej na serwerze produkcyjnym, należy przeprowadzić testy aplikacji w środowisku produkcyjnym. Testy powinny obejmować weryfikację funkcjonalności, stabilności i wydajności aplikacji w rzeczywistych warunkach.
+
+7.Wdrożenie aplikacji: Po pomyślnym zakończeniu testów aplikacji w środowisku produkcyjnym, należy udostępnić aplikację użytkownikom. Może to obejmować wdrożenie aplikacji na serwerze internetowym, udostępnienie klientom aplikacji mobilnej lub wdrożenie aplikacji w sieci wewnętrznej firmy.
+
+8.Szkolenie użytkowników: Należy zapewnić szkolenie dla użytkowników aplikacji bankowej. Szkolenie powinno obejmować instrukcje dotyczące korzystania z aplikacji, takie jak logowanie, przeglądanie konta, dokonywanie przelewów, korzystanie z kalkulatora walutowego itp.
+
+9.Monitorowanie i utrzymanie aplikacji: Po wdrożeniu aplikacji bankowej, należy monitorować jej działanie i zapewnić regularne utrzymanie, takie jak aktualizacje, poprawki bezpieczeństwa i bieżące wsparcie użytkowników.
+
 10Dokumentacja dla użytkownika
 Opcjonalnie – dla chętnych
 Na podstawie projektu docelowej aplikacji, a nie zaimplementowanego prototypu architektury
