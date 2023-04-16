@@ -127,65 +127,62 @@ Warto również podkreślić, że bank, dla którego realizowana jest aplikacja,
 
 5.1.4 Użytkownicy
 
-System będzie przeznaczony dla szerokiego grona użytkowników, w tym dla klientów indywidualnych, firm oraz instytucji. Głównymi użytkownikami systemu będą klienci banku, którzy będą korzystać z różnych usług finansowych takich jak konto bankowe, karty kredytowe, kredyty, lokaty, czy ubezpieczenia. Oprócz klientów, w systemie będą pracować również pracownicy banku(administratorzy, pracownicy szeregowi), którzy będą mieli dostęp do panelu administracyjnego umożliwiającego zarządzanie kontami i transakcjami klientów.
+      System będzie przeznaczony dla szerokiego grona użytkowników, w tym dla klientów indywidualnych, firm oraz instytucji. Głównymi użytkownikami systemu będą             klienci banku, którzy będą korzystać z różnych usług finansowych takich jak konto bankowe, karty kredytowe, kredyty, lokaty, czy ubezpieczenia. Oprócz klientów,       w systemie będą pracować również pracownicy banku(administratorzy, pracownicy szeregowi), którzy będą mieli dostęp do panelu administracyjnego umożliwiającego         zarządzanie kontami i transakcjami klientów.
 
 5.1.5 Korzyści z systemu
  
-   Dla firm i instytucji:
+      Dla firm i instytucji:
       1. Automatyzacja procesów finansowych, co pozwoli na zaoszczędzenie czasu oraz zmniejszenie kosztów związanych z ręcznym przetwarzaniem danych.
-      2. Łatwy i intuicyjny interfejs użytkownika, co umożliwi pracownikom szybkie przetwarzanie i obsługę wielu transakcji w krótkim czasie.
-      3. Możliwość przeglądania i generowania raportów finansowych w czasie rzeczywistym, co pozwoli na szybsze podejmowanie decyzji biznesowych.
+      3. Przeglądanie i generowanie raportów finansowych w czasie rzeczywistym, co pozwoli na szybsze podejmowanie decyzji biznesowych.
       4. Bezpieczeństwo transakcji finansowych, co zapewni klientom większe zaufanie do firmy i przyczyni się do wzrostu ich lojalności.
-      5. Łatwe zarządzanie kontami i dostęp do informacji o transakcjach, co umożliwi firmom lepszą kontrolę nad swoimi finansami i szybsze podejmowanie decyzji.
-      6. Możliwość integracji z innymi systemami firmowymi, co pozwoli na automatyzację całego procesu biznesowego oraz uniknięcie błędów ludzkich.
-      7. Usprawnienie procesu obsługi klienta, co przyczyni się do zwiększenia zadowolenia klientów i poprawy wizerunku firmy.
-      8. Możliwość śledzenia płatności i wystawiania faktur, co ułatwi prowadzenie działalności handlowej.
+      5. Zarządzanie kontami i dostęp do informacji o transakcjach, co umożliwi firmom lepszą kontrolę nad swoimi finansami i szybsze podejmowanie decyzji.
+      6. Integracja z innymi systemami firmowymi, co pozwoli na automatyzację całego procesu biznesowego oraz uniknięcie błędów ludzkich.
+      7. Procesu obsługi klienta, co przyczyni się do zwiększenia zadowolenia klientów i poprawy wizerunku firmy.
+      8. Śledzenie płatności i wystawiania faktur, co ułatwi prowadzenie działalności handlowej.
       9. Optymalizacja kosztów związanych z obsługą transakcji finansowych, co przyczyni się do zwiększenia zysków firmy.
 
-   Dla klientów:
+      Dla klientów:
       1. Dostęp do aplikacji bankowej 24/7, co pozwala na zarządzanie kontem z dowolnego miejsca i o każdej porze dnia i nocy.
-      2. Możliwość przeglądania salda i historii transakcji w czasie rzeczywistym.
-      3. Szybsza i bardziej wygodna obsługa transakcji bez konieczności wizyty w oddziale banku.
-      4. Bezpieczne przeprowadzanie transakcji dzięki zastosowaniu zaawansowanych technologii bezpieczeństwa.
+      2. Przeglądania salda i historii transakcji w czasie rzeczywistym.
+      3. Obsługa transakcji bez konieczności wizyty w oddziale banku.
 
-   Dla pracowników:
-      1. Ułatwienie i usprawnienie codziennych operacji bankowych, takich jak weryfikacja klientów i przetwarzanie transakcji.
-      2. Szybszy i bardziej efektywny dostęp do informacji o klientach i ich kontach.
-      3. Wsparcie w pracy, dzięki automatyzacji niektórych zadań, co umożliwia skupienie się na zadaniach bardziej strategicznych.
+      Dla pracowników:
+      1. Przeprowadzanie operacji bankowych, takich jak weryfikacja klientów i przetwarzanie transakcji.
+      2. Dostęp do informacji o klientach i ich kontach.
+      3. Definicja szablonów kalkulacyjnych (wsparcie w pracy, dzięki automatyzacji niektórych zadań, co umożliwia skupienie się na zadaniach bardziej strategicznych).
 
-   Dla administratorów systemu:
-      1. Łatwiejsza i bardziej efektywna administracja systemu dzięki zastosowaniu jednolitej platformy.
-      2. Szybsze wykrywanie i rozwiązywanie problemów technicznych dzięki rozbudowanym narzędziom monitorowania systemu.
-      3. Umożliwienie przeprowadzania analizy danych dotyczących użytkowania systemu, co pozwala na ciągłe doskonalenie i usprawnianie systemu.
+      Dla administratorów systemu:
+      1. Administracja systemu dzięki zastosowaniu jednolitej platformy.
+      2. Rozwiązywanie problemów technicznych dzięki rozbudowanym narzędziom monitorowania systemu. Przeglądanie logów aplikacji.
+      3. Dostęp do metryk systemu, na których możemy przeprowadzić analizę.
 
 5.1.6 Ograniczenia projektowe i wdrożeniowe
 
-1. Przepisy prawne: 
+    1. Przepisy prawne: 
     Aplikacja bankowa musi spełniać wymogi prawne i regulacje związane z branżą bankową, takie jak GDPR, dyrektywy UE, Kodeks Cywilny, Prawo Bankowe, itp..
     Przede wszystkim, aplikacja bankowa musi działać zgodnie z przepisami prawa bankowego oraz prawa ochrony danych osobowych, takimi jak RODO. Wymagane jest, aby dane     klientów były bezpiecznie przechowywane i przetwarzane, a także, aby transakcje finansowe odbywały się zgodnie z określonymi procedurami i zasadami.
 
-2. Specyficzne technologie: Aplikacja bankowa musi działać na specyficznych technologiach, takich jak systemy zarządzania bazami danych, protokoły komunikacyjne, języki programowania, narzędzia do testowania, itp.
+   2. Narzędzia b.d.:
+   System ma korzystać z serwera bazy danych MySQL.
 
-3. Narzędzia b.d.: Aplikacja bankowa musi spełniać wysokie wymagania dotyczące niezawodności i stabilności, co wymaga zastosowania zaawansowanych narzędzi bazy danych (Bazy Danych MySQL).
+   3. Protokoły komunikacyjne: 
+   Aplikacja bankowa musi korzystać z odpowiednich protokołów komunikacyjnych, takich jak HTTPS.
 
-4. Protokoły komunikacyjne: Aplikacja bankowa musi korzystać z odpowiednich protokołów komunikacyjnych, takich jak HTTPS, SSL, TLS, FTPS, itp.
+   5. Aspekty zabezpieczeń: 
+   Bezpieczeństwo aplikacji bankowej jest kluczowe, dlatego musi ona spełniać wysokie wymagania dotyczące ochrony danych, autentykacji, szyfrowania, a także powinna      posiadać system detekcji i zapobiegania atakom (IDS, IPS).
 
-5. Aspekty zabezpieczeń: Bezpieczeństwo aplikacji bankowej jest kluczowe, dlatego musi ona spełniać wysokie wymagania dotyczące ochrony danych, autentykacji, szyfrowania, a także powinna posiadać system detekcji i zapobiegania atakom (IDS, IPS).
+   6. Zgodność ze standardami:
+   Aplikacja bankowa musi spełniać normy i standardy branżowe, takie jak ISO 27001.
 
-6. Zgodność ze standardami: Aplikacja bankowa musi spełniać normy i standardy branżowe, takie jak ISO 27001, PCI DSS, OWASP, COBIT, itp.
+   7. Powiązania z innymi aplikacjami:
+   Aplikacja bankowa musi być zintegrowana z innymi systemami i aplikacjami, takimi jak systemy płatnicze, aplikacje mobilne, systemy CRM, itp.
 
-7. Powiązania z innymi aplikacjami: Aplikacja bankowa musi być zintegrowana z innymi systemami i aplikacjami, takimi jak systemy płatnicze, aplikacje mobilne, systemy CRM, itp.
-
-8. Platforma sprzętowa: Aplikacja bankowa musi działać na odpowiedniej platformie sprzętowej, zapewniającej wystarczającą wydajność i skalowalność.
-
-9. System operacyjny: Aplikacja bankowa musi działać na odpowiednim systemie operacyjnym, np. Windows, Linux, MacOS itp.
-
-10. Inne komponenty niezbędne do współpracy: Aplikacja bankowa musi współpracować z innymi systemami, takimi jak serwery poczty elektronicznej, serwery plików, serwery aplikacji, itp.
+   9. System operacyjny: Aplikacja bankowa musi działać na odpowiednim systemie operacyjnym: Windows, Linux, MacOS itp.
 
 5.2 Wymagania funkcjonalne:
 
 5.2.1 Lista wymagań:
-   - Kalkulator walut pobierany z API NBP
+   - Kalkulator z kursami walut pobieranych z API NBP
    - System logowania użytkowników
    - Przeglądanie salda konta
    - Wykonywanie przelewów
