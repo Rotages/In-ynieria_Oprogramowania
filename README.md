@@ -132,36 +132,31 @@ System będzie przeznaczony dla szerokiego grona użytkowników, w tym dla klien
 5.1.5 Korzyści z systemu
  
    Dla firm i instytucji:
-
-1. Automatyzacja procesów finansowych, co pozwoli na zaoszczędzenie czasu oraz zmniejszenie kosztów związanych z ręcznym przetwarzaniem danych.
-2. Łatwy i intuicyjny interfejs użytkownika, co umożliwi pracownikom szybkie przetwarzanie i obsługę wielu transakcji w krótkim czasie.
-3. Możliwość przeglądania i generowania raportów finansowych w czasie rzeczywistym, co pozwoli na szybsze podejmowanie decyzji biznesowych.
-4. Bezpieczeństwo transakcji finansowych, co zapewni klientom większe zaufanie do firmy i przyczyni się do wzrostu ich lojalności.
-5. Łatwe zarządzanie kontami i dostęp do informacji o transakcjach, co umożliwi firmom lepszą kontrolę nad swoimi finansami i szybsze podejmowanie decyzji.
-6. Możliwość integracji z innymi systemami firmowymi, co pozwoli na automatyzację całego procesu biznesowego oraz uniknięcie błędów ludzkich.
-7. Usprawnienie procesu obsługi klienta, co przyczyni się do zwiększenia zadowolenia klientów i poprawy wizerunku firmy.
-8. Możliwość śledzenia płatności i wystawiania faktur, co ułatwi prowadzenie działalności handlowej.
-9. Optymalizacja kosztów związanych z obsługą transakcji finansowych, co przyczyni się do zwiększenia zysków firmy.
-
+      1. Automatyzacja procesów finansowych, co pozwoli na zaoszczędzenie czasu oraz zmniejszenie kosztów związanych z ręcznym przetwarzaniem danych.
+      2. Łatwy i intuicyjny interfejs użytkownika, co umożliwi pracownikom szybkie przetwarzanie i obsługę wielu transakcji w krótkim czasie.
+      3. Możliwość przeglądania i generowania raportów finansowych w czasie rzeczywistym, co pozwoli na szybsze podejmowanie decyzji biznesowych.
+      4. Bezpieczeństwo transakcji finansowych, co zapewni klientom większe zaufanie do firmy i przyczyni się do wzrostu ich lojalności.
+      5. Łatwe zarządzanie kontami i dostęp do informacji o transakcjach, co umożliwi firmom lepszą kontrolę nad swoimi finansami i szybsze podejmowanie decyzji.
+      6. Możliwość integracji z innymi systemami firmowymi, co pozwoli na automatyzację całego procesu biznesowego oraz uniknięcie błędów ludzkich.
+      7. Usprawnienie procesu obsługi klienta, co przyczyni się do zwiększenia zadowolenia klientów i poprawy wizerunku firmy.
+      8. Możliwość śledzenia płatności i wystawiania faktur, co ułatwi prowadzenie działalności handlowej.
+      9. Optymalizacja kosztów związanych z obsługą transakcji finansowych, co przyczyni się do zwiększenia zysków firmy.
 
    Dla klientów:
-
-1. Dostęp do aplikacji bankowej 24/7, co pozwala na zarządzanie kontem z dowolnego miejsca i o każdej porze dnia i nocy.
-2. Możliwość przeglądania salda i historii transakcji w czasie rzeczywistym.
-3. Szybsza i bardziej wygodna obsługa transakcji bez konieczności wizyty w oddziale banku.
-4. Bezpieczne przeprowadzanie transakcji dzięki zastosowaniu zaawansowanych technologii bezpieczeństwa.
+      1. Dostęp do aplikacji bankowej 24/7, co pozwala na zarządzanie kontem z dowolnego miejsca i o każdej porze dnia i nocy.
+      2. Możliwość przeglądania salda i historii transakcji w czasie rzeczywistym.
+      3. Szybsza i bardziej wygodna obsługa transakcji bez konieczności wizyty w oddziale banku.
+      4. Bezpieczne przeprowadzanie transakcji dzięki zastosowaniu zaawansowanych technologii bezpieczeństwa.
 
    Dla pracowników:
-
-1. Ułatwienie i usprawnienie codziennych operacji bankowych, takich jak weryfikacja klientów i przetwarzanie transakcji.
-2. Szybszy i bardziej efektywny dostęp do informacji o klientach i ich kontach.
-3. Wsparcie w pracy, dzięki automatyzacji niektórych zadań, co umożliwia skupienie się na zadaniach bardziej strategicznych.
+      1. Ułatwienie i usprawnienie codziennych operacji bankowych, takich jak weryfikacja klientów i przetwarzanie transakcji.
+      2. Szybszy i bardziej efektywny dostęp do informacji o klientach i ich kontach.
+      3. Wsparcie w pracy, dzięki automatyzacji niektórych zadań, co umożliwia skupienie się na zadaniach bardziej strategicznych.
 
    Dla administratorów systemu:
-
-1. Łatwiejsza i bardziej efektywna administracja systemu dzięki zastosowaniu jednolitej platformy.
-2. Szybsze wykrywanie i rozwiązywanie problemów technicznych dzięki rozbudowanym narzędziom monitorowania systemu.
-3. Umożliwienie przeprowadzania analizy danych dotyczących użytkowania systemu, co pozwala na ciągłe doskonalenie i usprawnianie systemu.
+      1. Łatwiejsza i bardziej efektywna administracja systemu dzięki zastosowaniu jednolitej platformy.
+      2. Szybsze wykrywanie i rozwiązywanie problemów technicznych dzięki rozbudowanym narzędziom monitorowania systemu.
+      3. Umożliwienie przeprowadzania analizy danych dotyczących użytkowania systemu, co pozwala na ciągłe doskonalenie i usprawnianie systemu.
 
 5.1.6 Ograniczenia projektowe i wdrożeniowe
 
