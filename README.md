@@ -59,7 +59,9 @@ Niniejszą informację należy również usunąć z wersji końcowej.
 System obsługi defektów – np. Bitbucket, Github, Bugzilla.
 3 Słownik pojęć
    Tabela lub lista z pojęciami, które wymagają wyjaśnienia, wraz z tymi wyjaśnieniami – w szczególności synonimy różnych pojęć używanych w dokumentacji.
+
 4 Wprowadzenie
+
 4.1 Cel dokumentacji
 
    Dokumentacja dla aplikacji bankowej jest kluczowa dla zapewnienia skutecznego i bezpiecznego jej działania.
@@ -84,28 +86,28 @@ Warto również podkreślić, że bank, dla którego realizowana jest aplikacja,
 
 4.4 Analiza SWOT organizacji
 
-    Silne strony
-    - Ugruntowana pozycja na rynku finansowym
-    - Sieć oddziałów w wielu miastach
-    - Wieloletnie doświadczenie w branży finansowej
-    - Wysoko wykwalifikowany personel
-    - Różnorodność kanałów dystrybucji usług finansowych
+    Silne strony:
+    1. Ugruntowana pozycja na rynku finansowym
+    2. Sieć oddziałów w wielu miastach
+    3. Wieloletnie doświadczenie w branży finansowej
+    4. Wysoko wykwalifikowany personel
+    5. Różnorodność kanałów dystrybucji usług finansowych
 
-    Szanse
-    - Możliwość wdrożenia nowych produktów finansowych
-    - Możliwość pozyskania nowych klientów
-    - Wzrost zainteresowania klientów nowoczesnymi usługami bankowymi
+    Szanse:
+    1. Możliwość wdrożenia nowych produktów finansowych
+    2. Możliwość pozyskania nowych klientów
+    3. Wzrost zainteresowania klientów nowoczesnymi usługami bankowymi
     
-    Zagrożenia
-    - Konkurencja na rynku finansowym
-    - Zmiany regulacyjne i prawne
-    - Zmiany rynkowe, np. wzrost stóp procentowych lub spadek popytu na usługi finansowe
+    Zagrożenia:
+    1. Konkurencja na rynku finansowym
+    2. Zmiany regulacyjne i prawne
+    3. Zmiany rynkowe, np. wzrost stóp procentowych lub spadek popytu na usługi finansowe
 
-    Słabe strony
-    - Wysoki koszt obsługi klienta
-    - Złożone procesy biznesowe
-    - Brak elastyczności w realizacji zadań
-    - Niska innowacyjność
+    Słabe strony:
+    1. Wysoki koszt obsługi klienta
+    2. Złożone procesy biznesowe
+    3. Brak elastyczności w realizacji zadań
+    4. Niska innowacyjność
 
 5 Specyfikacja wymagań
 
@@ -129,64 +131,71 @@ System będzie przeznaczony dla szerokiego grona użytkowników, w tym dla klien
 
 5.1.5 Korzyści z systemu
  
-
    Dla firm i instytucji:
 
-   Automatyzacja procesów finansowych, co pozwoli na zaoszczędzenie czasu oraz zmniejszenie kosztów związanych z ręcznym przetwarzaniem danych.
-1.Łatwy i intuicyjny interfejs użytkownika, co umożliwi pracownikom szybkie przetwarzanie i obsługę wielu transakcji w krótkim czasie.
-2.Możliwość przeglądania i generowania raportów finansowych w czasie rzeczywistym, co pozwoli na szybsze podejmowanie decyzji biznesowych.
-3.Bezpieczeństwo transakcji finansowych, co zapewni klientom większe zaufanie do firmy i przyczyni się do wzrostu ich lojalności.
-4.Łatwe zarządzanie kontami i dostęp do informacji o transakcjach, co umożliwi firmom lepszą kontrolę nad swoimi finansami i szybsze podejmowanie decyzji.
-5.Możliwość integracji z innymi systemami firmowymi, co pozwoli na automatyzację całego procesu biznesowego oraz uniknięcie błędów ludzkich.
-6.Usprawnienie procesu obsługi klienta, co przyczyni się do zwiększenia zadowolenia klientów i poprawy wizerunku firmy.
-7.Możliwość śledzenia płatności i wystawiania faktur, co ułatwi prowadzenie działalności handlowej.
-8.Optymalizacja kosztów związanych z obsługą transakcji finansowych, co przyczyni się do zwiększenia zysków firmy.
+1. Automatyzacja procesów finansowych, co pozwoli na zaoszczędzenie czasu oraz zmniejszenie kosztów związanych z ręcznym przetwarzaniem danych.
+2. Łatwy i intuicyjny interfejs użytkownika, co umożliwi pracownikom szybkie przetwarzanie i obsługę wielu transakcji w krótkim czasie.
+3. Możliwość przeglądania i generowania raportów finansowych w czasie rzeczywistym, co pozwoli na szybsze podejmowanie decyzji biznesowych.
+4. Bezpieczeństwo transakcji finansowych, co zapewni klientom większe zaufanie do firmy i przyczyni się do wzrostu ich lojalności.
+5. Łatwe zarządzanie kontami i dostęp do informacji o transakcjach, co umożliwi firmom lepszą kontrolę nad swoimi finansami i szybsze podejmowanie decyzji.
+6. Możliwość integracji z innymi systemami firmowymi, co pozwoli na automatyzację całego procesu biznesowego oraz uniknięcie błędów ludzkich.
+7. Usprawnienie procesu obsługi klienta, co przyczyni się do zwiększenia zadowolenia klientów i poprawy wizerunku firmy.
+8. Możliwość śledzenia płatności i wystawiania faktur, co ułatwi prowadzenie działalności handlowej.
+9. Optymalizacja kosztów związanych z obsługą transakcji finansowych, co przyczyni się do zwiększenia zysków firmy.
 
 
    Dla klientów:
 
-1.Dostęp do aplikacji bankowej 24/7, co pozwala na zarządzanie kontem z dowolnego miejsca i o każdej porze dnia i nocy.
-2.Możliwość przeglądania salda i historii transakcji w czasie rzeczywistym.
-3.Szybsza i bardziej wygodna obsługa transakcji bez konieczności wizyty w oddziale banku.
-4.Bezpieczne przeprowadzanie transakcji dzięki zastosowaniu zaawansowanych technologii bezpieczeństwa.
+1. Dostęp do aplikacji bankowej 24/7, co pozwala na zarządzanie kontem z dowolnego miejsca i o każdej porze dnia i nocy.
+2. Możliwość przeglądania salda i historii transakcji w czasie rzeczywistym.
+3. Szybsza i bardziej wygodna obsługa transakcji bez konieczności wizyty w oddziale banku.
+4. Bezpieczne przeprowadzanie transakcji dzięki zastosowaniu zaawansowanych technologii bezpieczeństwa.
 
    Dla pracowników:
 
-1.Ułatwienie i usprawnienie codziennych operacji bankowych, takich jak weryfikacja klientów i przetwarzanie transakcji.
-2.Szybszy i bardziej efektywny dostęp do informacji o klientach i ich kontach.
-3.Wsparcie w pracy, dzięki automatyzacji niektórych zadań, co umożliwia skupienie się na zadaniach bardziej strategicznych.
+1. Ułatwienie i usprawnienie codziennych operacji bankowych, takich jak weryfikacja klientów i przetwarzanie transakcji.
+2. Szybszy i bardziej efektywny dostęp do informacji o klientach i ich kontach.
+3. Wsparcie w pracy, dzięki automatyzacji niektórych zadań, co umożliwia skupienie się na zadaniach bardziej strategicznych.
 
    Dla administratorów systemu:
 
-1.Łatwiejsza i bardziej efektywna administracja systemu dzięki zastosowaniu jednolitej platformy.
-2.Szybsze wykrywanie i rozwiązywanie problemów technicznych dzięki rozbudowanym narzędziom monitorowania systemu.
-3.Umożliwienie przeprowadzania analizy danych dotyczących użytkowania systemu, co pozwala na ciągłe doskonalenie i usprawnianie systemu.
+1. Łatwiejsza i bardziej efektywna administracja systemu dzięki zastosowaniu jednolitej platformy.
+2. Szybsze wykrywanie i rozwiązywanie problemów technicznych dzięki rozbudowanym narzędziom monitorowania systemu.
+3. Umożliwienie przeprowadzania analizy danych dotyczących użytkowania systemu, co pozwala na ciągłe doskonalenie i usprawnianie systemu.
 
 5.1.6 Ograniczenia projektowe i wdrożeniowe
 
-   Przepisy prawne: 
-Aplikacja bankowa musi spełniać wymogi prawne i regulacje związane z branżą bankową, takie jak GDPR, dyrektywy UE, Kodeks Cywilny, Prawo Bankowe, itp..
-Przede wszystkim, aplikacja bankowa musi działać zgodnie z przepisami prawa bankowego oraz prawa ochrony danych osobowych, takimi jak RODO. Wymagane jest, aby dane klientów były bezpiecznie przechowywane i przetwarzane, a także, aby transakcje finansowe odbywały się zgodnie z określonymi procedurami i zasadami.
-1.Specyficzne technologie: Aplikacja bankowa musi działać na specyficznych technologiach, takich jak systemy zarządzania bazami danych, protokoły komunikacyjne, języki programowania, narzędzia do testowania, itp.
-2.Narzędzia b.d.: Aplikacja bankowa musi spełniać wysokie wymagania dotyczące niezawodności i stabilności, co wymaga zastosowania zaawansowanych narzędzi bazy danych (Bazy Danych MySQL).
-3.Protokoły komunikacyjne: Aplikacja bankowa musi korzystać z odpowiednich protokołów komunikacyjnych, takich jak HTTPS, SSL, TLS, FTPS, itp.
-4.Aspekty zabezpieczeń: Bezpieczeństwo aplikacji bankowej jest kluczowe, dlatego musi ona spełniać wysokie wymagania dotyczące ochrony danych, autentykacji, szyfrowania, a także powinna posiadać system detekcji i zapobiegania atakom (IDS, IPS).
-5.Zgodność ze standardami: Aplikacja bankowa musi spełniać normy i standardy branżowe, takie jak ISO 27001, PCI DSS, OWASP, COBIT, itp.
-6.Powiązania z innymi aplikacjami: Aplikacja bankowa musi być zintegrowana z innymi systemami i aplikacjami, takimi jak systemy płatnicze, aplikacje mobilne, systemy CRM, itp.
-7.Platforma sprzętowa: Aplikacja bankowa musi działać na odpowiedniej platformie sprzętowej, zapewniającej wystarczającą wydajność i skalowalność.
-8.System operacyjny: Aplikacja bankowa musi działać na odpowiednim systemie operacyjnym, np. Windows, Linux, MacOS itp.
-9.Inne komponenty niezbędne do współpracy: Aplikacja bankowa musi współpracować z innymi systemami, takimi jak serwery poczty elektronicznej, serwery plików, serwery aplikacji, itp.
+1. Przepisy prawne: 
+    Aplikacja bankowa musi spełniać wymogi prawne i regulacje związane z branżą bankową, takie jak GDPR, dyrektywy UE, Kodeks Cywilny, Prawo Bankowe, itp..
+    Przede wszystkim, aplikacja bankowa musi działać zgodnie z przepisami prawa bankowego oraz prawa ochrony danych osobowych, takimi jak RODO. Wymagane jest, aby dane     klientów były bezpiecznie przechowywane i przetwarzane, a także, aby transakcje finansowe odbywały się zgodnie z określonymi procedurami i zasadami.
+
+2. Specyficzne technologie: Aplikacja bankowa musi działać na specyficznych technologiach, takich jak systemy zarządzania bazami danych, protokoły komunikacyjne, języki programowania, narzędzia do testowania, itp.
+
+3. Narzędzia b.d.: Aplikacja bankowa musi spełniać wysokie wymagania dotyczące niezawodności i stabilności, co wymaga zastosowania zaawansowanych narzędzi bazy danych (Bazy Danych MySQL).
+
+4. Protokoły komunikacyjne: Aplikacja bankowa musi korzystać z odpowiednich protokołów komunikacyjnych, takich jak HTTPS, SSL, TLS, FTPS, itp.
+
+5. Aspekty zabezpieczeń: Bezpieczeństwo aplikacji bankowej jest kluczowe, dlatego musi ona spełniać wysokie wymagania dotyczące ochrony danych, autentykacji, szyfrowania, a także powinna posiadać system detekcji i zapobiegania atakom (IDS, IPS).
+
+6. Zgodność ze standardami: Aplikacja bankowa musi spełniać normy i standardy branżowe, takie jak ISO 27001, PCI DSS, OWASP, COBIT, itp.
+
+7. Powiązania z innymi aplikacjami: Aplikacja bankowa musi być zintegrowana z innymi systemami i aplikacjami, takimi jak systemy płatnicze, aplikacje mobilne, systemy CRM, itp.
+
+8. Platforma sprzętowa: Aplikacja bankowa musi działać na odpowiedniej platformie sprzętowej, zapewniającej wystarczającą wydajność i skalowalność.
+
+9. System operacyjny: Aplikacja bankowa musi działać na odpowiednim systemie operacyjnym, np. Windows, Linux, MacOS itp.
+
+10. Inne komponenty niezbędne do współpracy: Aplikacja bankowa musi współpracować z innymi systemami, takimi jak serwery poczty elektronicznej, serwery plików, serwery aplikacji, itp.
 
 5.2 Wymagania funkcjonalne:
 
 5.2.1 Lista wymagań:
-
-   Kalkulator walut pobierany z API NBP
-   System logowania użytkowników
-   Przeglądanie salda konta
-   Wykonywanie przelewów
-   Zarządzanie kontami bankowymi
-   Obsługa kart płatniczych
+   - Kalkulator walut pobierany z API NBP
+   - System logowania użytkowników
+   - Przeglądanie salda konta
+   - Wykonywanie przelewów
+   - Zarządzanie kontami bankowymi
+   - Obsługa kart płatniczych
 
 5.2.2 Diagramy przypadków użycia: (do dodania)
 
@@ -198,8 +207,7 @@ Diagram przypadków użycia obsługi kart płatniczych
 
 5.2.3 Szczegółowy opis wymagań dla 5-7 wybranych najważniejszych przypadków użycia:
 
-Przykładowo dla przypadku użycia "Wykonywanie przelewów":
-   Numer: 3
+1. Przykładowo dla przypadku użycia "Wykonywanie przelewów":
    Nazwa: Wykonywanie przelewów
    Uzasadnienie biznesowe: Umożliwienie klientom dokonywania przelewów z ich konta bankowego.
    Użytkownicy: Klienci banku
@@ -221,37 +229,48 @@ Przykładowo dla przypadku użycia "Wykonywanie przelewów":
 
 5.3 Wymagania niefunkcjonalne:
 
--Wydajność:
-   Przepustowość systemu powinna wynosić co najmniej 100 transakcji na sekundę.
--Bezpieczeństwo:
-   System powinien być odporny na ataki typu SQL injection.
-   Hasła użytkowników powinią być przechowywane w bezpieczny sposób, np. zaszyfrowane w bazie danych. Ponadto, system powinien posiadać mechanizmy ochrony przed        dostępem nieautoryzowanym oraz umożliwiać zarządzanie uprawnieniami użytkowników.
--Zabezpieczenia:
-   System powinien posiadać mechanizmy zapobiegające utracie danych, np. poprzez regularne tworzenie kopii zapasowych. Ponadto, powinien umożliwiać szyfrowanie transmisji danych pomiędzy klientem a serwerem.
--Inne cechy jakości:
-   System powinien być łatwy w obsłudze dla użytkowników, zapewniać szybki czas odpowiedzi oraz łatwość konserwacji. Ponadto, powinien być testowalny i elastyczny w zakresie dostosowywania go do zmieniających się potrzeb klientów. System powinien także umożliwiać dostępność przez całą dobę oraz poprawność w działaniu.
+- Wydajność:
+   1. Przepustowość systemu powinna wynosić co najmniej 100 transakcji na sekundę.
+- Bezpieczeństwo:
+   1. System powinien być odporny na ataki typu SQL injection.
+   2. Hasła użytkowników powinią być przechowywane w bezpieczny sposób, np. zaszyfrowane w bazie danych. Ponadto, system powinien posiadać mechanizmy ochrony przed           dostępem nieautoryzowanym oraz umożliwiać zarządzanie uprawnieniami użytkowników.
+- Zabezpieczenia:
+   1. System powinien posiadać mechanizmy zapobiegające utracie danych, np. poprzez regularne tworzenie kopii zapasowych. Ponadto, powinien umożliwiać szyfrowanie           transmisji danych pomiędzy klientem a serwerem.
+- Inne cechy jakości:
+   1. System powinien być łatwy w obsłudze dla użytkowników, zapewniać szybki czas odpowiedzi oraz łatwość konserwacji. Ponadto, powinien być testowalny i elastyczny w       zakresie dostosowywania go do zmieniających się potrzeb klientów. System powinien także umożliwiać dostępność przez całą dobę oraz poprawność w działaniu.
 
-6Zarządzanie projektem
-6.1Zasoby ludzkie
+6 Zarządzanie projektem
+
+6.1 Zasoby ludzkie
+
 (rzeczywiste lub hipotetyczne) – przy realizacji projektu
 Należy założyć, że projekt byłby realizowany w całości jako projekt komercyjny a nie tylko częściowo w ramach zajęć na uczelni
-6.2Harmonogram prac
+
+6.2 Harmonogram prac
+
 Etapy mogą się składać z zadań.
 Wskazać czasy trwania poszczególnych etapów i zadań – wykres Gantta.
 obejmuje również harmonogram wdrożenia projektu – np. szkolenie, rozruch, konfiguracja, serwis – może obejmować różne wydania (tj. o różnej funkcjonalności – personal, professional, enterprise) i wersje (1.0, 1.5, itd.)
-6.3Etapy/kamienie milowe projektu
+6.3 Etapy/kamienie milowe projektu
 dla głównych etapów projektu
 
-7Zarządzanie ryzykiem
-7.1Lista czynników ryzyka
+7 Zarządzanie ryzykiem
+
+7.1 Lista czynników ryzyka
+
 Wypełniona lista kontrolna
-7.2Ocena ryzyka
+
+7.2 Ocena ryzyka
 prawdopodobieństwo i wpływ
-7.3Plan reakcji na ryzyko
+
+7.3 Plan reakcji na ryzyko
 Działania w odniesieniu do poszczególnych ryzyk.
 Mogą być wg różnych strategii, tj. kilka strategii dla pojedynczego czynnika ryzyka 
-8Zarządzanie jakością
-8.1Scenariusze i przypadki testowe
+
+8 Zarządzanie jakością
+
+8.1 Scenariusze i przypadki testowe
+
 szczegółowy plan testowania systemu – głównie testowanie funkcjonalności; każdy scenariusz od nowej strony, musi zawierać co najmniej następujące informacje (sugerowany układ tabelaryczny, np. wg szablonu podanego w osobnym pliku lub na wykładzie):
 numer – jako ID
 nazwa scenariusza – co test w nim testowane (max kilka wyrazów)
@@ -266,6 +285,7 @@ szczegółowy plan testowania systemu – głównie testowanie funkcjonalności;
 oprzebieg lub zestaw danych testowych musi zawierać jawną informację o warunku zaliczenia testu
 
 9 Projekt techniczny
+
 9.1 Opis architektury systemu
 
 Architektura systemu aplikacji bankowej składa się z kilku elementów, które łącznie tworzą spójną całość.
