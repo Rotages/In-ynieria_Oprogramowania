@@ -1,13 +1,14 @@
 Dokumentacja projektu zaliczeniowego
+
 Przedmiot: Inżynieria oprogramowania
 
-Temat:	Abc
-Autorzy:	Abc
-Grupa:	I1-210A
-Kierunek:	informatyka
-Rok akademicki:	…
+Temat:	Aplikacja Bankowa
+Autor: Jakub Bączalski
+Grupa: 20A
+Kierunek: informatyka
+Rok akademicki: 2023
 Poziom i semestr:	I/4
-Tryb studiów:	stacjonarne/niestacjonarne
+Tryb studiów:	niestacjonarne
 
 
 Należy pozostawić wszelkie nagłówki tego dokumentu, a umieszczać treść w odpowiednich miejscach zamiast obecnych objaśnień.
@@ -15,7 +16,7 @@ Stronę tytułową można sformatować w dowolny sposób, ale należy pozostawi�
 Praca powinna zostać złożona wyłącznie w formacie pdf. Przed wygenerowaniem ostatecznej wersji należy zaktualizować spis treści – wyświetlane dwa poziomy.
 Niniejszą informację należy również usunąć z wersji końcowej.
 
-1Spis treści
+1 Spis treści
 2	Odnośniki do innych źródeł	4
 3	Słownik pojęć	5
 4	Wprowadzenie	6
@@ -58,7 +59,7 @@ Niniejszą informację należy również usunąć z wersji końcowej.
 System obsługi defektów – np. Bitbucket, Github, Bugzilla.
 3 Słownik pojęć
    Tabela lub lista z pojęciami, które wymagają wyjaśnienia, wraz z tymi wyjaśnieniami – w szczególności synonimy różnych pojęć używanych w dokumentacji.
-4Wprowadzenie
+4 Wprowadzenie
 4.1 Cel dokumentacji
 
    Dokumentacja dla aplikacji bankowej jest kluczowa dla zapewnienia skutecznego i bezpiecznego jej działania.
