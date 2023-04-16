@@ -83,10 +83,28 @@ Warto również podkreślić, że bank, dla którego realizowana jest aplikacja,
 
 4.4 Analiza SWOT organizacji
 
-   Silne strony	Słabe strony
-    - Ugruntowana pozycja na rynku finansowym- Sieć oddziałów w wielu miastach- Wieloletnie doświadczenie w branży finansowej- Wysoko wykwalifikowany personel	- Wysoki     koszt obsługi klienta- Złożone procesy biznesowe- Brak elastyczności w realizacji zadań- Niska innowacyjność
-    Szanse	Zagrożenia
-    - Wzrost zainteresowania klientów nowoczesnymi usługami bankowymi- Możliwość pozyskania nowych klientów- Możliwość wdrożenia nowych produktów finansowych-             Różnorodność kanałów dystrybucji usług finansowych	- Konkurencja na rynku finansowym- Zmiany regulacyjne i prawne- Zmiany rynkowe, np. wzrost stóp procentowych lub     spadek popytu na usługi finansowe
+    Silne strony
+    - Ugruntowana pozycja na rynku finansowym
+    - Sieć oddziałów w wielu miastach
+    - Wieloletnie doświadczenie w branży finansowej
+    - Wysoko wykwalifikowany personel
+    - Różnorodność kanałów dystrybucji usług finansowych
+
+    Szanse
+    - Możliwość wdrożenia nowych produktów finansowych
+    - Możliwość pozyskania nowych klientów
+    - Wzrost zainteresowania klientów nowoczesnymi usługami bankowymi
+    
+    Zagrożenia
+    - Konkurencja na rynku finansowym
+    - Zmiany regulacyjne i prawne
+    - Zmiany rynkowe, np. wzrost stóp procentowych lub spadek popytu na usługi finansowe
+
+    Słabe strony
+    - Wysoki koszt obsługi klienta
+    - Złożone procesy biznesowe
+    - Brak elastyczności w realizacji zadań
+    - Niska innowacyjność
 
 5 Specyfikacja wymagań
 
@@ -103,11 +121,13 @@ Warto również podkreślić, że bank, dla którego realizowana jest aplikacja,
 5.1.3 Cel biznesowy
 
    Głównym celem biznesowym organizacji jest zwiększenie konkurencyjności na rynku finansowym poprzez udostępnienie klientom nowoczesnej i wygodnej platformy bankowej. Realizacja tego celu będzie opierała się na zwiększeniu liczby klientów korzystających z usług bankowych, poprawie jakości obsługi, redukcji kosztów operacyjnych oraz zwiększeniu zysków banku. Przez wprowadzenie innowacyjnych rozwiązań i usprawnienie procesów biznesowych, bank zamierza stać się liderem w branży bankowej i zwiększyć swoją pozycję na rynku finansowym.
-5.1.4Użytkownicy
+
+5.1.4 Użytkownicy
+
 System będzie przeznaczony dla szerokiego grona użytkowników, w tym dla klientów indywidualnych, firm oraz instytucji. Głównymi użytkownikami systemu będą klienci banku, którzy będą korzystać z różnych usług finansowych takich jak konto bankowe, karty kredytowe, kredyty, lokaty, czy ubezpieczenia. Oprócz klientów, w systemie będą pracować również pracownicy banku(administratorzy, pracownicy szeregowi), którzy będą mieli dostęp do panelu administracyjnego umożliwiającego zarządzanie kontami i transakcjami klientów.
+
 5.1.5 Korzyści z systemu
  
-
 
    Dla firm i instytucji:
 
@@ -176,6 +196,7 @@ Diagram przypadków użycia zarządzania kontami bankowymi
 Diagram przypadków użycia obsługi kart płatniczych
 
 5.2.3 Szczegółowy opis wymagań dla 5-7 wybranych najważniejszych przypadków użycia:
+
 Przykładowo dla przypadku użycia "Wykonywanie przelewów":
    Numer: 3
    Nazwa: Wykonywanie przelewów
@@ -208,6 +229,7 @@ Przykładowo dla przypadku użycia "Wykonywanie przelewów":
    System powinien posiadać mechanizmy zapobiegające utracie danych, np. poprzez regularne tworzenie kopii zapasowych. Ponadto, powinien umożliwiać szyfrowanie transmisji danych pomiędzy klientem a serwerem.
 -Inne cechy jakości:
    System powinien być łatwy w obsłudze dla użytkowników, zapewniać szybki czas odpowiedzi oraz łatwość konserwacji. Ponadto, powinien być testowalny i elastyczny w zakresie dostosowywania go do zmieniających się potrzeb klientów. System powinien także umożliwiać dostępność przez całą dobę oraz poprawność w działaniu.
+
 6Zarządzanie projektem
 6.1Zasoby ludzkie
 (rzeczywiste lub hipotetyczne) – przy realizacji projektu
@@ -241,8 +263,9 @@ szczegółowy plan testowania systemu – głównie testowanie funkcjonalności;
 założenia, środowisko, warunki wstępne, dane wejściowe – przygotowanie przed uruchomieniem testów
 zestaw danych testowych – najlepiej w formie tabelarycznej – jakie konkretnie dane mają być użyte przez testera i zwrócone przez system w poszczególnych krokach przebiegu działań
 oprzebieg lub zestaw danych testowych musi zawierać jawną informację o warunku zaliczenia testu
-9Projekt techniczny
-9.1Opis architektury systemu
+
+9 Projekt techniczny
+9.1 Opis architektury systemu
 
 Architektura systemu aplikacji bankowej składa się z kilku elementów, które łącznie tworzą spójną całość.
 
@@ -290,28 +313,30 @@ Poniżej przedstawiony jest schematyczny rysunek architektury systemu aplikacji 
      | sieciowe    |
      +-------------+
 
-9.2Technologie implementacji systemu
+9.2 Technologie implementacji systemu
 
-Technologia	- Opis uzasadniający
 PHP - Wybrano język programowania PHP jako główny język implementacji, ponieważ jest to popularny język skryptowy wykorzystywany do tworzenia aplikacji internetowych oraz posiada wiele bibliotek i frameworków ułatwiających pracę.
+
 Blade - Do implementacji warstwy prezentacji wykorzystano framework Blade, który jest częścią frameworka Laravel. Użyto go ze względu na prostotę i elastyczność. Framework ten umożliwia szybkie i łatwe tworzenie interfejsów użytkownika.
+
 MySQL - Jako system zarządzania bazą danych wykorzystano MySQL, ponieważ jest to popularny, bezpieczny i wydajny system. MySQL jest również łatwy w użyciu i posiada wiele narzędzi do zarządzania bazami danych.
+
 API - Do pobierania kursów walut dla kalkulatora wykorzystano API. Wybrano tę technologię, ponieważ umożliwia ona łatwe i szybkie pobieranie aktualnych kursów walut z różnych źródeł. API może również umożliwiać integrację z innymi systemami.
 
-9.3Diagramy UML
+9.3 Diagramy UML
 każdy diagram ma mieć tytuł oraz ma być na osobnej stronie
 diagramy przypadków użycia umieszczone w punkcie 5.2.2, a nie tutaj.
 
-9.3.1Diagram(-y) klas
+9.3.1 Diagram(-y) klas
 1 lub więcej
-9.3.2Diagram(-y) czynności
+9.3.2 Diagram(-y) czynności
 1 lub więcej
-9.3.3Diagramy sekwencji
+9.3.3 Diagramy sekwencji
 co najmniej 5, w tym co najmniej 1 przypadek użycia zilustrowany kilkoma diagramami
-9.3.4Inne diagramy
+9.3.4 Inne diagramy
 co najmniej trzy – komponentów, rozmieszczenia, maszyny stanowej itp.
 
-9.4Charakterystyka zastosowanych wzorców projektowych
+9.4 Charakterystyka zastosowanych wzorców projektowych
 
 W projekcie zastosowano kilka wzorców projektowych, które pomogły w zaprojektowaniu i implementacji systemu. Poniżej przedstawione są dwa zastosowane wzorce projektowe wraz z diagramami UML.
 
@@ -321,7 +346,7 @@ W projekcie zastosowano kilka wzorców projektowych, które pomogły w zaprojekt
 
 9.5Projekt bazy danych
 
-9.5.1Schemat
+9.5.1 Schemat
 
 Poniżej przedstawiony jest schemat bazy danych aplikacji bankowej w trzeciej postaci normalnej (3NF):
 
@@ -331,7 +356,7 @@ Schemat ten jest znormalizowany do trzeciej postaci normalnej, co oznacza, że k
 W projekcie wykorzystano relacyjną bazę danych MySQL, która jest jednym z najczęściej wykorzystywanych systemów zarządzania bazami danych w aplikacjach internetowych. Zdecydowano się na wykorzystanie bazy MySQL ze względu na jej łatwą instalację i konfigurację, a także na jej wydajność i niezawodność.
 
 
-9.5.2Projekty szczegółowe tabel
+9.5.2 Projekty szczegółowe tabel
 w zależności, czy następujące elementy są widoczne na schemacie b.d.: nazwa tabeli, nazwy pól, typ danych, wartości NULL, klucz główny, klucz obcy –
 - jeśli TAK: i nie ma potrzeby pokazania dodatkowych elementów b.d., to ten punkt może być pusty,
 - jeśli NIE: to podać te elementy, których nie widać na schemacie.
@@ -402,7 +427,7 @@ Schemat przedstawia, że użytkownik zaczyna od strony logowania, skąd może pr
 
 9.6.3 Projekty szczegółowe poszczególnych elementów
 
-Przykładowe projekty szczegółowe dla 5 głównych elementów interfejsu:
+Przykładowe projekty szczegółowe dla 4 głównych elementów interfejsu:
 
 Formularz rejestracji użytkownika
 ID: 1
@@ -440,25 +465,23 @@ Opis działania: po zalogowaniu użytkownik zostaje przekierowany na stronę gł
 
 9.7 Procedura wdrożenia
 
-1.Procedura wdrożenia aplikacji bankowej powinna być starannie zaplanowana i składać się z kilku etapów:
+1.Testowanie aplikacji: Przed rozpoczęciem wdrożenia aplikacji bankowej należy przeprowadzić testy. Testy powinny obejmować weryfikację funkcjonalności, stabilności i wydajności aplikacji. Testy można przeprowadzić ręcznie lub za pomocą narzędzi automatyzujących.
 
-2.Testowanie aplikacji: Przed rozpoczęciem wdrożenia aplikacji bankowej należy przeprowadzić testy. Testy powinny obejmować weryfikację funkcjonalności, stabilności i wydajności aplikacji. Testy można przeprowadzić ręcznie lub za pomocą narzędzi automatyzujących.
+2.Uruchomienie środowiska produkcyjnego: Po pomyślnym zakończeniu testów należy przygotować środowisko produkcyjne. Powinno ono zapewniać niezbędne zasoby do działania aplikacji bankowej, takie jak serwer aplikacji, bazy danych, usługi sieciowe itp.
 
-3.Uruchomienie środowiska produkcyjnego: Po pomyślnym zakończeniu testów należy przygotować środowisko produkcyjne. Powinno ono zapewniać niezbędne zasoby do działania aplikacji bankowej, takie jak serwer aplikacji, bazy danych, usługi sieciowe itp.
+3.Przygotowanie bazy danych: Należy zapewnić, że baza danych jest przygotowana do działania z aplikacją bankową. Wszystkie potrzebne tabele, widoki i procedury składowane muszą być utworzone i skonfigurowane zgodnie z wymaganiami aplikacji.
 
-4.Przygotowanie bazy danych: Należy zapewnić, że baza danych jest przygotowana do działania z aplikacją bankową. Wszystkie potrzebne tabele, widoki i procedury składowane muszą być utworzone i skonfigurowane zgodnie z wymaganiami aplikacji.
+4.Instalacja aplikacji bankowej: Po przygotowaniu środowiska produkcyjnego i bazy danych, należy zainstalować aplikację bankową. Instalacja może obejmować skopiowanie plików na serwer aplikacji, skonfigurowanie połączenia z bazą danych, skonfigurowanie plików konfiguracyjnych i przetestowanie działania aplikacji.
 
-5.Instalacja aplikacji bankowej: Po przygotowaniu środowiska produkcyjnego i bazy danych, należy zainstalować aplikację bankową. Instalacja może obejmować skopiowanie plików na serwer aplikacji, skonfigurowanie połączenia z bazą danych, skonfigurowanie plików konfiguracyjnych i przetestowanie działania aplikacji.
+5.Testowanie aplikacji w środowisku produkcyjnym: Po zainstalowaniu aplikacji bankowej na serwerze produkcyjnym, należy przeprowadzić testy aplikacji w środowisku produkcyjnym. Testy powinny obejmować weryfikację funkcjonalności, stabilności i wydajności aplikacji w rzeczywistych warunkach.
 
-6.Testowanie aplikacji w środowisku produkcyjnym: Po zainstalowaniu aplikacji bankowej na serwerze produkcyjnym, należy przeprowadzić testy aplikacji w środowisku produkcyjnym. Testy powinny obejmować weryfikację funkcjonalności, stabilności i wydajności aplikacji w rzeczywistych warunkach.
+6.Wdrożenie aplikacji: Po pomyślnym zakończeniu testów aplikacji w środowisku produkcyjnym, należy udostępnić aplikację użytkownikom. Może to obejmować wdrożenie aplikacji na serwerze internetowym, udostępnienie klientom aplikacji mobilnej lub wdrożenie aplikacji w sieci wewnętrznej firmy.
 
-7.Wdrożenie aplikacji: Po pomyślnym zakończeniu testów aplikacji w środowisku produkcyjnym, należy udostępnić aplikację użytkownikom. Może to obejmować wdrożenie aplikacji na serwerze internetowym, udostępnienie klientom aplikacji mobilnej lub wdrożenie aplikacji w sieci wewnętrznej firmy.
+7.Szkolenie użytkowników: Należy zapewnić szkolenie dla użytkowników aplikacji bankowej. Szkolenie powinno obejmować instrukcje dotyczące korzystania z aplikacji, takie jak logowanie, przeglądanie konta, dokonywanie przelewów, korzystanie z kalkulatora walutowego itp.
 
-8.Szkolenie użytkowników: Należy zapewnić szkolenie dla użytkowników aplikacji bankowej. Szkolenie powinno obejmować instrukcje dotyczące korzystania z aplikacji, takie jak logowanie, przeglądanie konta, dokonywanie przelewów, korzystanie z kalkulatora walutowego itp.
+8.Monitorowanie i utrzymanie aplikacji: Po wdrożeniu aplikacji bankowej, należy monitorować jej działanie i zapewnić regularne utrzymanie, takie jak aktualizacje, poprawki bezpieczeństwa i bieżące wsparcie użytkowników.
 
-9.Monitorowanie i utrzymanie aplikacji: Po wdrożeniu aplikacji bankowej, należy monitorować jej działanie i zapewnić regularne utrzymanie, takie jak aktualizacje, poprawki bezpieczeństwa i bieżące wsparcie użytkowników.
-
-10Dokumentacja dla użytkownika
+10 Dokumentacja dla użytkownika
 Opcjonalnie – dla chętnych
 Na podstawie projektu docelowej aplikacji, a nie zaimplementowanego prototypu architektury
 
