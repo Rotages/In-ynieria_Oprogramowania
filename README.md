@@ -311,13 +311,13 @@ Główne etapy projektu aplikacji bankowej:
 8 Zarządzanie jakością
 
 8.1 Scenariusze i przypadki testowe
-``
+
 Numer	Nazwa scenariusza	Kategoria	Opis	Tester	Termin	Narzędzia wspomagające	Przebieg działań	Założenia, środowisko, warunki wstępne, dane wejściowe	Zestaw danych testowych	Warunek zaliczenia testu
 1	Rejestracja użytkownika	Testy funkcjonalne	Testowanie procesu rejestracji nowego użytkownika w aplikacji	Tester1	01.07.2023	Brak	1. Wejście na stronę rejestracji	Brak konta użytkownika w systemie	Dane wejściowe: Imię, nazwisko, adres e-mail, hasło	Utworzenie nowego konta użytkownika w systemie
 2	Logowanie do systemu	Testy funkcjonalne	Testowanie procesu logowania użytkownika do aplikacji	Tester2	05.07.2023	Brak	1. Wejście na stronę logowania	Posiadanie poprawnych danych logowania	Dane wejściowe: Adres e-mail, hasło	Weryfikacja poprawności danych logowania i przekierowanie do panelu użytkownika
 3	Wykonanie przelewu	Testy funkcjonalne	Testowanie procesu wykonania przelewu środków z jednego konta na inne	Tester3	10.07.2023	Brak	1. Zalogowanie do systemu	Posiadanie dostępnych środków na koncie	Dane wejściowe: Numer konta odbiorcy, kwota przelewu	Zaksięgowanie przelewu na koncie odbiorcy i aktualizacja salda
 4	Sprawdzenie historii transakcji	Testy funkcjonalne	Testowanie funkcji wyświetlania historii transakcji dla danego konta	Tester4	15.07.2023	Brak	1. Zalogowanie do systemu	Posiadanie historii transakcji dla danego konta	Dane wejściowe: Numer konta	Wyświetlenie listy transakcji w kolejności od najnowszej do najstarszej
-``
+
 9 Projekt techniczny
 
 9.1 Opis architektury systemu
@@ -447,37 +447,36 @@ W przypadku aplikacji mobilnej na systemie Android, powyższe elementy interfejs
 9.6.2 Przejścia między głównymi elementami
 
 Poniżej przedstawiony jest schemat blokowy przedstawiający przejścia między głównymi elementami interfejsu aplikacji bankowej:
-``
-+----------------+          +-------------------+           +----------------+
-| Strona logowania| -------->|     Strona główna  |---------->| Strona ustawień |
-+----------------+          +-------------------+           +----------------+
-    |                                                     ^           |
-    |                                                     |           |
-    |                                                     |           |
-    v                                                     |           |
-+------------------+        +---------------------+      |           |
-|Strona rejestracji|<-------| Strona potwierdzenia |<-----+           |
-+------------------+        +---------------------+                  |
-    |                                                                   |
-    |                                                                   |
-    v                                                                   |
-+----------------+          +----------------------+                  |
-|  Strona główna | -------->|Strona transferu pieniędzy|                  |
-+----------------+          +----------------------+                  |
-    |                                                                   |
-    |                                                                   |
-    v                                                                   |
-+------------------+       +---------------------+                     |
-| Strona historii  |<------| Strona kalkulatora  |                     |
-|   transakcji     |       |       walut         |                     |
-+------------------+       +---------------------+                     |
-                                                                        |
-                                                                        |
-                                                                        v
-                                                                 +-----------------+
-                                                                 | Strona kontaktowa|
-                                                                 +-----------------+
-                                                                 ``
+
+      +----------------+          +-------------------+           +----------------+
+      | Strona logowania| -------->|     Strona główna  |---------->| Strona ustawień |
+      +----------------+          +-------------------+           +----------------+
+          |                                                     ^           |
+         |                                                     |           |
+          |                                                     |           |
+         v                                                     |           |
+      +------------------+        +---------------------+      |           |
+      |Strona rejestracji|<-------| Strona potwierdzenia |<-----+           |
+      +------------------+        +---------------------+                  |
+          |                                                                   |
+          |                                                                   |
+          v                                                                   |
+      +----------------+          +----------------------+                  |
+      |  Strona główna | -------->|Strona transferu pieniędzy|                  |
+      +----------------+          +----------------------+                  |
+          |                                                                   |
+        |                                                                   |
+        v                                                                   |
+      +------------------+       +---------------------+                     |
+      | Strona historii  |<------| Strona kalkulatora  |                     |
+      |   transakcji     |       |       walut         |                     |
+      +------------------+       +---------------------+                     |
+                                                                              |
+                                                                              |
+                                                                              v
+                                                                      +-----------------+
+                                                                      | Strona kontaktowa|
+                                                                     +-----------------+
 
 Schemat przedstawia, że użytkownik zaczyna od strony logowania, skąd może przejść do strony rejestracji lub po wpisaniu poprawnych danych logowania do strony głównej. Z głównej strony użytkownik może przejść do innych głównych elementów interfejsu, takich jak strona transferu pieniędzy, strona historii transakcji, strona kalkulatora walut i strona kontaktowa. Z poziomu strony głównej użytkownik może także przejść do strony ustawień. Przejścia między elementami interfejsu mogą być wywołane przez kliknięcie przycisków lub opcji w menu.
 
