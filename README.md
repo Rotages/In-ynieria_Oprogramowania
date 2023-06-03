@@ -235,46 +235,87 @@ Diagram przypadków użycia obsługi kart płatniczych
 
 6.1 Zasoby ludzkie
 
-(rzeczywiste lub hipotetyczne) – przy realizacji projektu
-Należy założyć, że projekt byłby realizowany w całości jako projekt komercyjny a nie tylko częściowo w ramach zajęć na uczelni
+W ramach projektu aplikacji bankowej, zasoby ludzkie obejmują różne role. Zespół projektowy składa się z następujących osób:
+
+Kierownik projektu: Osoba odpowiedzialna za zarządzanie całym projektem, koordynację zespołu oraz nadzór nad postępem prac.
+Analityk biznesowy: Osoba odpowiedzialna za analizę wymagań klienta oraz opracowanie specyfikacji funkcjonalnej aplikacji.
+Projektant interfejsu użytkownika: Osoba odpowiedzialna za zaprojektowanie intuicyjnego i atrakcyjnego interfejsu użytkownika aplikacji bankowej.
+Programiści: Zespół programistów odpowiedzialnych za implementację aplikacji bankowej.
+Testerzy: Zespół testerów, którzy przeprowadzą testy jednostkowe, integracyjne oraz testy akceptacyjne, aby upewnić się o jakości aplikacji.
+Administratorzy systemu: Osoby odpowiedzialne za konfigurację, utrzymanie i monitorowanie infrastruktury, na której będzie działać aplikacja bankowa.
 
 6.2 Harmonogram prac
 
-Etapy mogą się składać z zadań.
-Wskazać czasy trwania poszczególnych etapów i zadań – wykres Gantta.
-obejmuje również harmonogram wdrożenia projektu – np. szkolenie, rozruch, konfiguracja, serwis – może obejmować różne wydania (tj. o różnej funkcjonalności – personal, professional, enterprise) i wersje (1.0, 1.5, itd.)
+Harmonogram prac dla projektu aplikacji bankowej obejmuje następujące etapy:
+
+Etap 1: Analiza wymagań (trwałość: 2 tygodnie)
+Etap 2: Projektowanie interfejsu użytkownika (trwałość: 1 tydzień)
+Etap 3: Implementacja aplikacji (trwałość: 4 miesiące)
+Etap 4: Testowanie i rozwiązywanie usterek (trwałość: 2 tygodnie)
+Etap 5: Wdrożenie aplikacji (trwałość: 1 tydzień)
+Etap 6: Szkolenie personelu (trwałość: 2 dni)
+Etap 7: Serwis i konserwacja (trwałość: bezterminowo, jako stała część utrzymania aplikacji)
+
 6.3 Etapy/kamienie milowe projektu
-dla głównych etapów projektu
+
+Główne etapy projektu aplikacji bankowej:
+
+Etap 1: Analiza wymagań: Przeprowadzenie badań rynku, analiza potrzeb klienta i określenie funkcjonalności aplikacji.
+Etap 2: Projektowanie interfejsu użytkownika: Opracowanie prototypów interfejsu, dostosowanie do potrzeb użytkowników i zatwierdzenie ostatecznego projektu.
+Etap 3: Implementacja aplikacji: Tworzenie kodu źródłowego, implementacja funkcjonalności, integracja z systemami bankowymi i przeprowadzenie testów jednostkowych.
+Etap 4: Testowanie i rozwiązywanie usterek: Przeprowadzenie testów integracyjnych, testów akceptacyjnych i identyfikowanie oraz rozwiązywanie wszelkich usterek w aplikacji.
+Etap 5: Wdrożenie aplikacji: Instalacja aplikacji na serwerze produkcyjnym, konfiguracja środowiska produkcyjnego oraz migracja danych z istniejących systemów bankowych.
+Etap 6: Szkolenie personelu: Przeprowadzenie szkoleń dla pracowników banku, aby zapewnić im umiejętność korzystania z aplikacji oraz obsługiwanie klientów.
+Etap 7: Serwis i konserwacja: Zapewnienie stałej opieki technicznej, utrzymanie aplikacji, monitorowanie jej działania i wprowadzanie niezbędnych aktualizacji.
 
 7 Zarządzanie ryzykiem
 
 7.1 Lista czynników ryzyka
 
-Wypełniona lista kontrolna
+Brak wystarczającej analizy wymagań klienta
+Opóźnienia w dostawie zewnętrznych usług lub komponentów
+Konflikty harmonogramowe z innymi projektami w organizacji
+Nieodpowiednie zarządzanie zasobami ludzkimi
+Brak umiejętności technicznych lub doświadczenia w zespole projektowym
+Awaria infrastruktury technologicznej
+Problemy z bezpieczeństwem danych i cyberbezpieczeństwem
+Zmiany w regulacjach lub przepisach dotyczących sektora bankowego
+Niski poziom zaangażowania klientów lub niewłaściwa akceptacja aplikacji
+Konflikty interesów wewnątrz organizacji klienta
 
 7.2 Ocena ryzyka
-prawdopodobieństwo i wpływ
+
+Czynnik ryzyka	Prawdopodobieństwo	Wpływ
+1	               3	                  4
+2	               2	                  3
+3	               3	                  2
+4	               4	                  3
+5	               2	                  4
+6	               3	                  5
+7	               4	                  5
+8	               2	                  3
+9	               3	                  2
+10	               2	                  3
+
 
 7.3 Plan reakcji na ryzyko
-Działania w odniesieniu do poszczególnych ryzyk.
-Mogą być wg różnych strategii, tj. kilka strategii dla pojedynczego czynnika ryzyka 
+
+Czynnik ryzyka	            Plan reakcji
+1	                  Przeprowadzenie szczegółowej analizy wymagań klienta, uwzględniając regularne spotkania i konsultacje.
+3	                  Utworzenie harmonogramu projektów w organizacji, aby uniknąć konfliktów harmonogramowych.
+6	                  Regularne monitorowanie stanu infrastruktury, utrzymanie kopii zapasowych i planowanie awaryjne w razie potrzeby.
+7	                  Wdrożenie odpowiednich środków bezpieczeństwa danych, takich jak szyfrowanie, uwierzytelnianie wieloskładnikowe i audyty bezpieczeństwa.
+10	                  Ustanowienie jasnych polityk i procedur w organizacji klienta, aby zapobiegać konfliktom interesów.
 
 8 Zarządzanie jakością
 
 8.1 Scenariusze i przypadki testowe
 
-szczegółowy plan testowania systemu – głównie testowanie funkcjonalności; każdy scenariusz od nowej strony, musi zawierać co najmniej następujące informacje (sugerowany układ tabelaryczny, np. wg szablonu podanego w osobnym pliku lub na wykładzie):
-numer – jako ID
-nazwa scenariusza – co test w nim testowane (max kilka wyrazów)
-kategoria – poziom/kategoria testów
-opis – dodatkowe opcjonalne informacje, które nie zmieściły się w nazwie
-tester - konkretna osoba lub klient/pracownik,
-termin – kiedy testowanie ma być przeprowadzane,
-narzędzia wspomagające – jeśli jakieś są używane przy danym scenariuszu
-przebieg działań – tabela z trzema kolumnami: lp. oraz opisującymi działania testera i systemu
-założenia, środowisko, warunki wstępne, dane wejściowe – przygotowanie przed uruchomieniem testów
-zestaw danych testowych – najlepiej w formie tabelarycznej – jakie konkretnie dane mają być użyte przez testera i zwrócone przez system w poszczególnych krokach przebiegu działań
-oprzebieg lub zestaw danych testowych musi zawierać jawną informację o warunku zaliczenia testu
+Numer	Nazwa scenariusza	Kategoria	Opis	Tester	Termin	Narzędzia wspomagające	Przebieg działań	Założenia, środowisko, warunki wstępne, dane wejściowe	Zestaw danych testowych	Warunek zaliczenia testu
+1	Rejestracja użytkownika	Testy funkcjonalne	Testowanie procesu rejestracji nowego użytkownika w aplikacji	Tester1	01.07.2023	Brak	1. Wejście na stronę rejestracji	Brak konta użytkownika w systemie	Dane wejściowe: Imię, nazwisko, adres e-mail, hasło	Utworzenie nowego konta użytkownika w systemie
+2	Logowanie do systemu	Testy funkcjonalne	Testowanie procesu logowania użytkownika do aplikacji	Tester2	05.07.2023	Brak	1. Wejście na stronę logowania	Posiadanie poprawnych danych logowania	Dane wejściowe: Adres e-mail, hasło	Weryfikacja poprawności danych logowania i przekierowanie do panelu użytkownika
+3	Wykonanie przelewu	Testy funkcjonalne	Testowanie procesu wykonania przelewu środków z jednego konta na inne	Tester3	10.07.2023	Brak	1. Zalogowanie do systemu	Posiadanie dostępnych środków na koncie	Dane wejściowe: Numer konta odbiorcy, kwota przelewu	Zaksięgowanie przelewu na koncie odbiorcy i aktualizacja salda
+4	Sprawdzenie historii transakcji	Testy funkcjonalne	Testowanie funkcji wyświetlania historii transakcji dla danego konta	Tester4	15.07.2023	Brak	1. Zalogowanie do systemu	Posiadanie historii transakcji dla danego konta	Dane wejściowe: Numer konta	Wyświetlenie listy transakcji w kolejności od najnowszej do najstarszej
 
 9 Projekt techniczny
 
@@ -494,15 +535,10 @@ Opis działania: po zalogowaniu użytkownik zostaje przekierowany na stronę gł
 
 8.Monitorowanie i utrzymanie aplikacji: Po wdrożeniu aplikacji bankowej, należy monitorować jej działanie i zapewnić regularne utrzymanie, takie jak aktualizacje, poprawki bezpieczeństwa i bieżące wsparcie użytkowników.
 
-10 Dokumentacja dla użytkownika
-Opcjonalnie – dla chętnych
-Na podstawie projektu docelowej aplikacji, a nie zaimplementowanego prototypu architektury
 
-4-6 stron z obrazkami (np. zrzuty ekranowe, polecenia do wpisania na konsoli, itp.)
-pisana językiem odpowiednim do grupy odbiorców – czyli najczęściej nie do informatyków
-może to być przebieg krok po kroku obsługi jednej głównej funkcji systemu, kilku mniejszych, instrukcja instalacji lub innej pomocniczej czynności.
-11Podsumowanie
-11.1Szczegółowe nakłady projektowe członków zespołu
-tabela (kolumny to osoby, wiersze to działania) pokazująca, kto ile czasu poświęcił na projekt oraz procentowy udział każdej osoby w danym zadaniu oraz wiersz podsumowania – procentowy udział każdej osoby w skali całego projektu
-12Inne informacje
-przydatne informacje, które nie zostały ujęte we wcześniejszych punktach
+10 Podsumowanie
+
+10.1 Szczegółowe nakłady projektowe członków zespołu
+
+Wszystko ja
+
