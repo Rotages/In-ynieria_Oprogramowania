@@ -182,13 +182,14 @@ Warto również podkreślić, że bank, dla którego realizowana jest aplikacja,
 5.2 Wymagania funkcjonalne:
 
 5.2.1 Lista wymagań:
+```
    - Kalkulator z kursami walut pobieranych z API NBP
    - System logowania użytkowników
    - Przeglądanie salda konta
    - Wykonywanie przelewów
    - Zarządzanie kontami bankowymi
    - Obsługa kart płatniczych
-
+```
 5.2.2 Diagramy przypadków użycia: (do dodania)
 
 Diagram przypadków użycia systemu logowania użytkowników
@@ -198,7 +199,7 @@ Diagram przypadków użycia zarządzania kontami bankowymi
 Diagram przypadków użycia obsługi kart płatniczych
 
 5.2.3 Szczegółowy opis wymagań dla 5-7 wybranych najważniejszych przypadków użycia:
-
+```
 1. Przykładowo dla przypadku użycia "Wykonywanie przelewów":
    Nazwa: Wykonywanie przelewów
    Uzasadnienie biznesowe: Umożliwienie klientom dokonywania przelewów z ich konta bankowego.
@@ -218,9 +219,9 @@ Diagram przypadków użycia obsługi kart płatniczych
    Wymagania niefunkcjonalne:
    Częstotliwość: 5 (często wykorzystywany przez klientów)
    Istotność: 5 (kluczowa funkcjonalność systemu)
-
+```
 5.3 Wymagania niefunkcjonalne:
-
+```
 - Wydajność:
    1. Przepustowość systemu powinna wynosić co najmniej 100 transakcji na sekundę.
 - Bezpieczeństwo:
@@ -230,7 +231,7 @@ Diagram przypadków użycia obsługi kart płatniczych
    1. System powinien posiadać mechanizmy zapobiegające utracie danych, np. poprzez regularne tworzenie kopii zapasowych. Ponadto, powinien umożliwiać szyfrowanie           transmisji danych pomiędzy klientem a serwerem.
 - Inne cechy jakości:
    1. System powinien być łatwy w obsłudze dla użytkowników, zapewniać szybki czas odpowiedzi oraz łatwość konserwacji. Ponadto, powinien być testowalny i elastyczny w       zakresie dostosowywania go do zmieniających się potrzeb klientów. System powinien także umożliwiać dostępność przez całą dobę oraz poprawność w działaniu.
-
+```
 6 Zarządzanie projektem
 
 6.1 Zasoby ludzkie
@@ -310,13 +311,13 @@ Główne etapy projektu aplikacji bankowej:
 8 Zarządzanie jakością
 
 8.1 Scenariusze i przypadki testowe
-
+``
 Numer	Nazwa scenariusza	Kategoria	Opis	Tester	Termin	Narzędzia wspomagające	Przebieg działań	Założenia, środowisko, warunki wstępne, dane wejściowe	Zestaw danych testowych	Warunek zaliczenia testu
 1	Rejestracja użytkownika	Testy funkcjonalne	Testowanie procesu rejestracji nowego użytkownika w aplikacji	Tester1	01.07.2023	Brak	1. Wejście na stronę rejestracji	Brak konta użytkownika w systemie	Dane wejściowe: Imię, nazwisko, adres e-mail, hasło	Utworzenie nowego konta użytkownika w systemie
 2	Logowanie do systemu	Testy funkcjonalne	Testowanie procesu logowania użytkownika do aplikacji	Tester2	05.07.2023	Brak	1. Wejście na stronę logowania	Posiadanie poprawnych danych logowania	Dane wejściowe: Adres e-mail, hasło	Weryfikacja poprawności danych logowania i przekierowanie do panelu użytkownika
 3	Wykonanie przelewu	Testy funkcjonalne	Testowanie procesu wykonania przelewu środków z jednego konta na inne	Tester3	10.07.2023	Brak	1. Zalogowanie do systemu	Posiadanie dostępnych środków na koncie	Dane wejściowe: Numer konta odbiorcy, kwota przelewu	Zaksięgowanie przelewu na koncie odbiorcy i aktualizacja salda
 4	Sprawdzenie historii transakcji	Testy funkcjonalne	Testowanie funkcji wyświetlania historii transakcji dla danego konta	Tester4	15.07.2023	Brak	1. Zalogowanie do systemu	Posiadanie historii transakcji dla danego konta	Dane wejściowe: Numer konta	Wyświetlenie listy transakcji w kolejności od najnowszej do najstarszej
-
+``
 9 Projekt techniczny
 
 9.1 Opis architektury systemu
