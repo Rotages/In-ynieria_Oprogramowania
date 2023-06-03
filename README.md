@@ -248,64 +248,64 @@ Administratorzy systemu: Osoby odpowiedzialne za konfigurację, utrzymanie i mon
 
 Harmonogram prac dla projektu aplikacji bankowej obejmuje następujące etapy:
 
-Etap 1: Analiza wymagań (trwałość: 2 tygodnie)
-Etap 2: Projektowanie interfejsu użytkownika (trwałość: 1 tydzień)
-Etap 3: Implementacja aplikacji (trwałość: 4 miesiące)
-Etap 4: Testowanie i rozwiązywanie usterek (trwałość: 2 tygodnie)
-Etap 5: Wdrożenie aplikacji (trwałość: 1 tydzień)
-Etap 6: Szkolenie personelu (trwałość: 2 dni)
-Etap 7: Serwis i konserwacja (trwałość: bezterminowo, jako stała część utrzymania aplikacji)
+      Etap 1: Analiza wymagań (trwałość: 2 tygodnie)
+      Etap 2: Projektowanie interfejsu użytkownika (trwałość: 1 tydzień)
+      Etap 3: Implementacja aplikacji (trwałość: 4 miesiące)
+      Etap 4: Testowanie i rozwiązywanie usterek (trwałość: 2 tygodnie)
+      Etap 5: Wdrożenie aplikacji (trwałość: 1 tydzień)
+      Etap 6: Szkolenie personelu (trwałość: 2 dni)
+      Etap 7: Serwis i konserwacja (trwałość: bezterminowo, jako stała część utrzymania aplikacji)
 
 6.3 Etapy/kamienie milowe projektu
 
 Główne etapy projektu aplikacji bankowej:
 
-Etap 1: Analiza wymagań: Przeprowadzenie badań rynku, analiza potrzeb klienta i określenie funkcjonalności aplikacji.
-Etap 2: Projektowanie interfejsu użytkownika: Opracowanie prototypów interfejsu, dostosowanie do potrzeb użytkowników i zatwierdzenie ostatecznego projektu.
-Etap 3: Implementacja aplikacji: Tworzenie kodu źródłowego, implementacja funkcjonalności, integracja z systemami bankowymi i przeprowadzenie testów jednostkowych.
-Etap 4: Testowanie i rozwiązywanie usterek: Przeprowadzenie testów integracyjnych, testów akceptacyjnych i identyfikowanie oraz rozwiązywanie wszelkich usterek w aplikacji.
-Etap 5: Wdrożenie aplikacji: Instalacja aplikacji na serwerze produkcyjnym, konfiguracja środowiska produkcyjnego oraz migracja danych z istniejących systemów bankowych.
-Etap 6: Szkolenie personelu: Przeprowadzenie szkoleń dla pracowników banku, aby zapewnić im umiejętność korzystania z aplikacji oraz obsługiwanie klientów.
-Etap 7: Serwis i konserwacja: Zapewnienie stałej opieki technicznej, utrzymanie aplikacji, monitorowanie jej działania i wprowadzanie niezbędnych aktualizacji.
+      Etap 1: Analiza wymagań: Przeprowadzenie badań rynku, analiza potrzeb klienta i określenie funkcjonalności aplikacji.
+      Etap 2: Projektowanie interfejsu użytkownika: Opracowanie prototypów interfejsu, dostosowanie do potrzeb użytkowników i zatwierdzenie ostatecznego projektu.
+      Etap 3: Implementacja aplikacji: Tworzenie kodu źródłowego, implementacja funkcjonalności, integracja z systemami bankowymi i przeprowadzenie testów jednostkowych.
+      Etap 4: Testowanie i rozwiązywanie usterek: Przeprowadzenie testów integracyjnych, testów akceptacyjnych i identyfikowanie oraz rozwiązywanie wszelkich usterek w aplikacji.
+      Etap 5: Wdrożenie aplikacji: Instalacja aplikacji na serwerze produkcyjnym, konfiguracja środowiska produkcyjnego oraz migracja danych z istniejących systemów bankowych.
+      Etap 6: Szkolenie personelu: Przeprowadzenie szkoleń dla pracowników banku, aby zapewnić im umiejętność korzystania z aplikacji oraz obsługiwanie klientów.
+      Etap 7: Serwis i konserwacja: Zapewnienie stałej opieki technicznej, utrzymanie aplikacji, monitorowanie jej działania i wprowadzanie niezbędnych aktualizacji.
 
 7 Zarządzanie ryzykiem
 
 7.1 Lista czynników ryzyka
 
-Brak wystarczającej analizy wymagań klienta
-Opóźnienia w dostawie zewnętrznych usług lub komponentów
-Konflikty harmonogramowe z innymi projektami w organizacji
-Nieodpowiednie zarządzanie zasobami ludzkimi
-Brak umiejętności technicznych lub doświadczenia w zespole projektowym
-Awaria infrastruktury technologicznej
-Problemy z bezpieczeństwem danych i cyberbezpieczeństwem
-Zmiany w regulacjach lub przepisach dotyczących sektora bankowego
-Niski poziom zaangażowania klientów lub niewłaściwa akceptacja aplikacji
-Konflikty interesów wewnątrz organizacji klienta
+      1.Brak wystarczającej analizy wymagań klienta
+      2.Opóźnienia w dostawie zewnętrznych usług lub komponentów
+      3.Konflikty harmonogramowe z innymi projektami w organizacji
+      4.Nieodpowiednie zarządzanie zasobami ludzkimi
+      5.Brak umiejętności technicznych lub doświadczenia w zespole projektowym
+      6.Awaria infrastruktury technologicznej
+      7.Problemy z bezpieczeństwem danych i cyberbezpieczeństwem
+      8.Zmiany w regulacjach lub przepisach dotyczących sektora bankowego
+      9.Niski poziom zaangażowania klientów lub niewłaściwa akceptacja aplikacji
+      10.Konflikty interesów wewnątrz organizacji klienta
 
 7.2 Ocena ryzyka
 
-Czynnik ryzyka	Prawdopodobieństwo	Wpływ
-1	               3	                  4
-2	               2	                  3
-3	               3	                  2
-4	               4	                  3
-5	               2	                  4
-6	               3	                  5
-7	               4	                  5
-8	               2	                  3
-9	               3	                  2
-10	               2	                  3
+      Czynnik ryzyka	Prawdopodobieństwo	Wpływ
+         1	               3	                  4
+         2	               2	                  3
+         3	               3	                  2
+         4	               4	                  3
+         5	               2	                  4
+         6	               3	                  5
+         7	               4	                  5
+         8	               2	                  3
+         9	               3	                  2
+         10	               2	                  3
 
 
 7.3 Plan reakcji na ryzyko
 
-Czynnik ryzyka	            Plan reakcji
-1	                  Przeprowadzenie szczegółowej analizy wymagań klienta, uwzględniając regularne spotkania i konsultacje.
-3	                  Utworzenie harmonogramu projektów w organizacji, aby uniknąć konfliktów harmonogramowych.
-6	                  Regularne monitorowanie stanu infrastruktury, utrzymanie kopii zapasowych i planowanie awaryjne w razie potrzeby.
-7	                  Wdrożenie odpowiednich środków bezpieczeństwa danych, takich jak szyfrowanie, uwierzytelnianie wieloskładnikowe i audyty bezpieczeństwa.
-10	                  Ustanowienie jasnych polityk i procedur w organizacji klienta, aby zapobiegać konfliktom interesów.
+        Czynnik ryzyka	            Plan reakcji
+         1	                  Przeprowadzenie szczegółowej analizy wymagań klienta, uwzględniając regularne spotkania i konsultacje.
+         3	                  Utworzenie harmonogramu projektów w organizacji, aby uniknąć konfliktów harmonogramowych.
+         6	                  Regularne monitorowanie stanu infrastruktury, utrzymanie kopii zapasowych i planowanie awaryjne w razie potrzeby.
+         7	                  Wdrożenie odpowiednich środków bezpieczeństwa danych, takich jak szyfrowanie, uwierzytelnianie wieloskładnikowe i audyty bezpieczeństwa.
+         10	                  Ustanowienie jasnych polityk i procedur w organizacji klienta, aby zapobiegać konfliktom interesów.
 
 8 Zarządzanie jakością
 
@@ -323,49 +323,50 @@ Numer	Nazwa scenariusza	Kategoria	Opis	Tester	Termin	Narzędzia wspomagające	Pr
 
 Architektura systemu aplikacji bankowej składa się z kilku elementów, które łącznie tworzą spójną całość.
 
-Warstwa prezentacji - jest to część systemu, która odpowiada za interakcję użytkownika z aplikacją. Składa się ona z interfejsu użytkownika oraz aplikacji klienckiej. Interfejs użytkownika umożliwia użytkownikowi wykonywanie operacji bankowych poprzez interakcję z systemem. Aplikacja kliencka jest odpowiedzialna za komunikację z serwerem oraz przesyłanie żądań użytkownika do serwera.
+      - Warstwa prezentacji - jest to część systemu, która odpowiada za interakcję użytkownika z aplikacją. Składa się ona z interfejsu użytkownika oraz aplikacji klienckiej. Interfejs użytkownika umożliwia użytkownikowi wykonywanie operacji bankowych poprzez interakcję z systemem. Aplikacja kliencka jest odpowiedzialna za komunikację z serwerem oraz przesyłanie żądań użytkownika do serwera.
 
-Warstwa logiki biznesowej - jest to część systemu, która odpowiada za logikę biznesową aplikacji. Składa się ona z serwera aplikacji oraz serwera bazy danych. Serwer aplikacji zawiera logikę biznesową aplikacji oraz przetwarza żądania użytkownika. Serwer bazy danych przechowuje dane użytkowników oraz transakcje bankowe.
+      - Warstwa logiki biznesowej - jest to część systemu, która odpowiada za logikę biznesową aplikacji. Składa się ona z serwera aplikacji oraz serwera bazy danych. Serwer aplikacji zawiera logikę biznesową aplikacji oraz przetwarza żądania użytkownika. Serwer bazy danych przechowuje dane użytkowników oraz transakcje bankowe.
 
-Warstwa integracji - jest to część systemu, która odpowiada za integrację aplikacji bankowej z innymi systemami. Składa się ona z interfejsów programistycznych API oraz usług sieciowych. Interfejsy programistyczne API umożliwiają innym systemom integrację z aplikacją bankową, natomiast usługi sieciowe umożliwiają komunikację z innymi systemami.
+      - Warstwa integracji - jest to część systemu, która odpowiada za integrację aplikacji bankowej z innymi systemami. Składa się ona z interfejsów programistycznych API oraz usług sieciowych. Interfejsy programistyczne API umożliwiają innym systemom integrację z aplikacją bankową, natomiast usługi sieciowe umożliwiają komunikację z innymi systemami.
 
 Poniżej przedstawiony jest schematyczny rysunek architektury systemu aplikacji bankowej:
-      +-------------+
-     | Warstwa      |
-     | prezentacji |
-     |             |
-     | Interfejs    |
-     | użytkownika  |
-     |             |
-     | Aplikacja    |
-     | kliencka     |
-     +-------------+
-            |
-            |
-            v
-     +-------------+
-     | Warstwa      |
-     | logiki       |
-     | biznesowej  |
-     |             |
-     | Serwer       |
-     | aplikacji   <----> Serwer bazy danych
-     |             |
-     +-------------+
-            |
-            |
-            v
-     +-------------+
-     | Warstwa      |
-     | integracji  |
-     |             |
-     | Interfejsy   |
-     | programistycz|
-     | ne API       |
-     |             |
-     | Usługi      <----> Inne systemy
-     | sieciowe    |
-     +-------------+
+
+                        ``       +-------------+
+                                | Warstwa      |
+                                | prezentacji |
+                                |             |
+                                | Interfejs    |
+                                | użytkownika  |
+                                |             |
+                                | Aplikacja    |
+                                | kliencka     |
+                                +-------------+
+                                       |
+                                       |
+                                       v
+                                +-------------+
+                                | Warstwa      |
+                                | logiki       |
+                                | biznesowej  |
+                                |             |
+                                | Serwer       |
+                                | aplikacji   <----> Serwer bazy danych
+                                |             |
+                                +-------------+
+                                       |
+                                       |
+                                       v
+                                +-------------+
+                                | Warstwa      |
+                                | integracji  |
+                                |             |
+                                | Interfejsy   |
+                                | programistycz|
+                                | ne API       |
+                                |             |
+                                | Usługi      <----> Inne systemy
+                                | sieciowe    |
+                                +-------------+ ``
 
 9.2 Technologie implementacji systemu
 
@@ -394,9 +395,8 @@ co najmniej trzy – komponentów, rozmieszczenia, maszyny stanowej itp.
 
 W projekcie zastosowano kilka wzorców projektowych, które pomogły w zaprojektowaniu i implementacji systemu. Poniżej przedstawione są dwa zastosowane wzorce projektowe wraz z diagramami UML.
 
-1. Wzorzec projektowy Model-Widok-Kontroler (MVC) - wzorzec ten został wykorzystany do oddzielenia warstwy prezentacji, logiki biznesowej i warstwy danych. MVC umożliwia łatwe zarządzanie projektem poprzez podzielenie go na trzy podstawowe elementy: model, widok i kontroler. Model odpowiada za przechowywanie danych, widok za prezentację danych użytkownikowi, a kontroler za przetwarzanie żądań użytkownika i interakcję z modelem i widokiem. Poniżej przedstawiony jest diagram UML przedstawiający wzorzec MVC w projekcie aplikacji bankowej
-
-2. Wzorzec projektowy Fabryka - wzorzec ten został wykorzystany do tworzenia obiektów różnych typów na podstawie podanego parametru. W projekcie zastosowano fabrykę do tworzenia obiektów odpowiedzialnych za komunikację z różnymi źródłami danych, takimi jak baza danych czy API. Poniżej przedstawiony jest diagram UML przedstawiający wzorzec Fabryka w projekcie aplikacji bankowej
+      1. Wzorzec projektowy Model-Widok-Kontroler (MVC) - wzorzec ten został wykorzystany do oddzielenia warstwy prezentacji, logiki biznesowej i warstwy danych. MVC umożliwia łatwe zarządzanie projektem poprzez podzielenie go na trzy podstawowe elementy: model, widok i kontroler. Model odpowiada za przechowywanie danych, widok za prezentację danych użytkownikowi, a kontroler za przetwarzanie żądań użytkownika i interakcję z modelem i widokiem. Poniżej przedstawiony jest diagram UML przedstawiający wzorzec MVC w projekcie aplikacji bankowej
+      2. Wzorzec projektowy Fabryka - wzorzec ten został wykorzystany do tworzenia obiektów różnych typów na podstawie podanego parametru. W projekcie zastosowano fabrykę do tworzenia obiektów odpowiedzialnych za komunikację z różnymi źródłami danych, takimi jak baza danych czy API. Poniżej przedstawiony jest diagram UML przedstawiający wzorzec Fabryka w projekcie aplikacji bankowej
 
 9.5Projekt bazy danych
 
@@ -446,7 +446,7 @@ W przypadku aplikacji mobilnej na systemie Android, powyższe elementy interfejs
 9.6.2 Przejścia między głównymi elementami
 
 Poniżej przedstawiony jest schemat blokowy przedstawiający przejścia między głównymi elementami interfejsu aplikacji bankowej:
-
+``
 +----------------+          +-------------------+           +----------------+
 | Strona logowania| -------->|     Strona główna  |---------->| Strona ustawień |
 +----------------+          +-------------------+           +----------------+
@@ -476,6 +476,7 @@ Poniżej przedstawiony jest schemat blokowy przedstawiający przejścia między 
                                                                  +-----------------+
                                                                  | Strona kontaktowa|
                                                                  +-----------------+
+                                                                 ``
 
 Schemat przedstawia, że użytkownik zaczyna od strony logowania, skąd może przejść do strony rejestracji lub po wpisaniu poprawnych danych logowania do strony głównej. Z głównej strony użytkownik może przejść do innych głównych elementów interfejsu, takich jak strona transferu pieniędzy, strona historii transakcji, strona kalkulatora walut i strona kontaktowa. Z poziomu strony głównej użytkownik może także przejść do strony ustawień. Przejścia między elementami interfejsu mogą być wywołane przez kliknięcie przycisków lub opcji w menu.
 
