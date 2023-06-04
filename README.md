@@ -10,12 +10,7 @@ Rok akademicki: 2023
 Poziom i semestr:	I/4
 Tryb studiów:	niestacjonarne
 
-
-Należy pozostawić wszelkie nagłówki tego dokumentu, a umieszczać treść w odpowiednich miejscach zamiast obecnych objaśnień.
-Stronę tytułową można sformatować w dowolny sposób, ale należy pozostawić zawartość informacyjną w układzie pokazanym powyżej.
-Praca powinna zostać złożona wyłącznie w formacie pdf. Przed wygenerowaniem ostatecznej wersji należy zaktualizować spis treści – wyświetlane dwa poziomy.
-Niniejszą informację należy również usunąć z wersji końcowej.
-
+```
 1 Spis treści
 2	Odnośniki do innych źródeł	4
 3	Słownik pojęć	5
@@ -50,7 +45,7 @@ Niniejszą informację należy również usunąć z wersji końcowej.
 11	Podsumowanie	15
 11.1	Szczegółowe nakłady projektowe członków zespołu	15
 12	Inne informacje	16
-
+```
 
 2 Odnośniki do innych źródeł
 ```
