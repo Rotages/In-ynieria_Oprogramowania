@@ -369,12 +369,56 @@ Główne etapy projektu aplikacji bankowej:
 
 7.3 Plan reakcji na ryzyko
 ```
-        Czynnik ryzyka	            Plan reakcji
-         1	                  Przeprowadzenie szczegółowej analizy wymagań klienta, uwzględniając regularne spotkania i konsultacje.
-         3	                  Utworzenie harmonogramu projektów w organizacji, aby uniknąć konfliktów harmonogramowych.
-         6	                  Regularne monitorowanie stanu infrastruktury, utrzymanie kopii zapasowych i planowanie awaryjne w razie potrzeby.
-         7	                  Wdrożenie odpowiednich środków bezpieczeństwa danych, takich jak szyfrowanie, uwierzytelnianie wieloskładnikowe i audyty bezpieczeństwa.
-         10	                  Ustanowienie jasnych polityk i procedur w organizacji klienta, aby zapobiegać konfliktom interesów.
+        1. Brak wystarczającej analizy wymagań klienta:
+            - Przeprowadzić dodatkowe spotkania z klientem w celu lepszego zrozumienia jego potrzeb i oczekiwań.
+            - Skonsultować się z ekspertami w celu analizy i interpretacji wymagań.
+            - Utworzyć dokumentację zawierającą jasne i sprecyzowane wymagania, aby uniknąć pomyłek w dalszych etapach projektu.
+
+        2. Opóźnienia w dostawie zewnętrznych usług lub komponentów:
+            - Skontaktować się z dostawcami i ustalić, czy występują jakiekolwiek problemy lub opóźnienia.
+            - Zidentyfikować alternatywne źródła dostaw, jeśli to konieczne.
+            - Zaktualizować harmonogram projektu uwzględniając opóźnienia i poinformować klienta oraz interesariuszy.
+
+        3. Konflikty harmonogramowe z innymi projektami w organizacji:
+            - Skoordynować harmonogramy różnych projektów w organizacji.
+            - Zidentyfikować priorytety i negocjować harmonogramy z odpowiednimi interesariuszami.
+            - Przypisać odpowiednich zasobów do projektów, aby uniknąć nadmiernego obciążenia zespołów.
+
+        4. Nieodpowiednie zarządzanie zasobami ludzkimi:
+         - Skontaktować się z zespołem zarządzania zasobami ludzkimi w celu zidentyfikowania problemów i dostarczenia odpowiednich rozwiązań.
+         - Zapewnić odpowiednie szkolenia i rozwój umiejętności dla członków zespołu.
+         - Przeprowadzać regularne oceny wydajności i monitorować zaangażowanie zespołu.
+
+        5. Brak umiejętności technicznych lub doświadczenia w zespole projektowym:
+            - Utworzyć plan szkoleń lub przypisać członków zespołu do zadań, które są zgodne z ich umiejętnościami i doświadczeniem.
+            - Skonsultować się z ekspertami, którzy mogą udzielić wsparcia technicznego i mentorstwa.
+            - W przypadku braku niezbędnych umiejętności rozważyć zatrudnienie zewnętrznych specjalistów.
+
+        6. Awaria infrastruktury technologicznej:
+            - Opracować plan awaryjny i zapasowe środki w celu minimalizacji wpływu awarii.
+            - Utrzymywać regularne kopie zapasowe danych i zasobów.
+            - Skontaktować się z dostawcami usług technologicznych w celu szybkiej naprawy lub przywrócenia usług.
+
+        7. Problemy z bezpieczeństwem danych i cyberbezpieczeństwem:
+            - Skonsultować się z ekspertami ds. bezpieczeństwa w celu identyfikacji potencjalnych luk w zabezpieczeniach.
+            - Wdrażać odpowiednie środki ochronne, takie jak szyfrowanie danych, uwierzytelnianie wieloskładnikowe itp.
+            - Regularnie monitorować i audytować systemy pod kątem zabezpieczeń.
+
+        8. Zmiany w regulacjach lub przepisach dotyczących sektora bankowego:
+            - Śledzić i monitorować zmiany w przepisach i regulacjach.
+            - Skonsultować się z prawnikami lub ekspertami ds. regulacji, aby zrozumieć skutki zmian dla projektu.
+            - Dostosować projekt i procesy do nowych wymagań prawnych.
+
+        9. Niski poziom zaangażowania klientów lub niewłaściwa akceptacja aplikacji:
+
+         - Skonsultować się z klientem, aby zidentyfikować przyczyny niskiego zaangażowania i niewłaściwej akceptacji.
+         - Regularnie komunikować się z klientem, aby upewnić się, że jego oczekiwania są spełnione.
+         - Przeglądać i dostosowywać plan projektu na podstawie informacji zwrotnej klienta.
+
+        10. Konflikty interesów wewnątrz organizacji klienta:
+         - Zidentyfikować interesariuszy i ich oczekiwania.
+         - Ustalić mechanizmy rozwiązywania konfliktów wewnątrz organizacji klienta.
+         - Utrzymywać otwartą i transparentną komunikację, aby minimalizować konflikty interesów.
 ```
 8 Zarządzanie jakością
 
